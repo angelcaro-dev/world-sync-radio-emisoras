@@ -18,5 +18,15 @@ New / Nuevos:
 ## Sources / Origen
 - [Radio-Browser](https://www.radio-browser.info/) full list through its API (`/json/stations`), downloaded weekly (export dump as fallback). Radio-Browser: "You may use it in free and non free software." ([api.radio-browser.info](https://api.radio-browser.info/))
 - Stations found by World Sync Radio's own search and by hand-checked lists (`fuente = propio`); stations not already in the base are only added after a real connection check that audio arrives.
+- Station lists and addresses found by World Sync Radio in Europe (Oct 2026): public web pages and streams of each station, Icecast status pages of known servers, Wikipedia (CC BY-SA 4.0, names and links only), Wikidata (CC0), OpenStreetMap (ODbL).
+
+## Attributions (CC BY and open licences) / Atribuciones
+Some stations were located with the help of these open datasets; each such station lists it in `fuentes` (`cc-by:...`):
+- **Portugal**: "Rádios em Portugal: websites e histórico de versões no Arquivo.pt", [dados.gov.pt](https://dados.gov.pt/) (Arquivo.pt), licence CC BY.
+- **Finland**: Traficom, Radioasematiedot, [opendata.traficom.fi](https://opendata.traficom.fi/api/v1/Radioasematiedot), CC BY 4.0.
+- **Greece**: Ethniko Symvoulio Radiotileorasis (ESR), "Radiofonikoi Stathmoi me Vevaiosi Nomimou Leitourgias", [data.gov.gr](https://data.gov.gr/dataset/radiofonikoi-stathmoi-me-vevaiosi-nomimoy-leitoyrgias), CC BY 4.0.
+- **Moldova**: Consiliul Audiovizualului, Registrul furnizorilor de servicii media de radiodifuziune sonora, [dataset.gov.md](https://dataset.gov.md/dataset/30ec53f3-5a87-401a-9ced-01a94f86c2b1), CC BY 4.0.
+- **Croatia**: Agencija za elektronicke medije (AEM), Popis medijskih usluga radio, [data.gov.hr](https://data.gov.hr/) / [pmu.e-mediji.hr](https://pmu.e-mediji.hr/), Otvorena dozvola RH (open licence of the Republic of Croatia).
+- **Czechia**: Cesky telekomunikacni urad (CTU), Prehled rozhlasovych kmitoctu, [data.ctu.gov.cz](https://data.ctu.gov.cz/), CTU open-data terms (attribution).
 
 Updated / Actualizada: see `resumen.json` · Contact: ac.compose@gmail.com
