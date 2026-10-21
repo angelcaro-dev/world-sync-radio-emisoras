@@ -2,16 +2,16 @@
  "origen_rb": "radiobrowser_api_20261021.json.gz",
  "campos_nuevos": {
   "formato": {
-   "total": 57587,
+   "total": 57603,
    "espana": 2969
   },
   "kbps": {
-   "total": 48571,
+   "total": 48587,
    "espana": 2809
   },
   "estilos": {
-   "total": 31032,
-   "espana": 758
+   "total": 31036,
+   "espana": 759
   },
   "ambito": {
    "total": 3367,
@@ -34,7 +34,7 @@
    "espana": 57
   },
   "ultimo_chequeo": {
-   "total": 58052,
+   "total": 58071,
    "espana": 3027
   },
   "url_resuelta": {
@@ -42,8 +42,8 @@
    "espana": 849
   },
   "suena": {
-   "total": 58084,
-   "espana": 3027
+   "total": 58092,
+   "espana": 3028
   },
   "lugares_otros": {
    "total": 449,
@@ -55,15 +55,15 @@
   }
  },
  "suenan": {
-  "si": 52102,
-  "no": 5982,
+  "si": 52103,
+  "no": 5989,
   "sin_dato": 0,
-  "espana_si": 2879,
+  "espana_si": 2880,
   "espana_no": 148
  },
  "estado_comprobacion": 2202,
  "ambitos": {
-  "null": 54717,
+  "null": 54725,
   "internet": 770,
   "local": 2253,
   "provincial": 221,
@@ -72,36 +72,20 @@
  },
  "formatos": {
   "HLS": 4431,
-  "MP3": 38660,
+  "MP3": 38675,
   "AAC+": 8041,
-  "AAC": 5882,
-  "null": 497,
+  "AAC": 5883,
+  "null": 489,
   "OGG": 568,
   "FLAC": 5
  },
- "registros_rb_entrada": 69515,
- "items_propios_entrada": 6298,
- "hallados_entrada": 1047,
- "hallados_suenan": 1025,
- "hallados_no_suenan": 22,
- "hallados_no_suenan_urls_distintas": 20,
- "hallados_no_suenan_ejemplos": [
-  "Tea FM | https://cervera.eldialdigital.com:21161/stream",
-  "Armonía Duero | http://37.59.37.173:42840/listen.mp3",
-  "RM Radio | https://cast2.rmradio.es:8053/mira",
-  "RM Radio | https://cast2.rmradio.es:8053/mira",
-  "Qué Guapa | https://cast2.rmradio.es:8056/directo",
-  "RM Radio | https://cast2.rmradio.es:8053/campillo",
-  "RM Radio | https://cast2.rmradio.es:8053/mira",
-  "COPE Jiloca | https://directo.radiocalamocha.es:1443/copejiloca.mp3",
-  "Radio Azuaga | https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
-  "Lokura Radio.es HUELVA 95.0FM | https://s5.myradiostream.com/40086/listen.mp3",
-  "UniRadio Jaén | https://uniradio-endirecto.ujaen.es/live",
-  "Litoral FM 96.1 | https://shout35.crossradio.com.br:24090/1",
-  "Border Radio | https://stream.border-radio.it/radio.mp3",
-  "Radio DUX | http://icecast.radiodux.me:8000/radiodux",
-  "WMTM Cruisin'94 WMTM Cruisin'94 | http://us4.internet-radio.com:8143/listen.pls"
- ],
+ "registros_rb_entrada": 69525,
+ "items_propios_entrada": 7323,
+ "hallados_entrada": 0,
+ "hallados_suenan": 0,
+ "hallados_no_suenan": 0,
+ "hallados_no_suenan_urls_distintas": 0,
+ "hallados_no_suenan_ejemplos": [],
  "conflictos_lugar": 119,
  "conflictos_ejemplos": [
   [
@@ -305,26 +289,26 @@
    "buscador:d"
   ]
  ],
- "total": 58084,
+ "total": 58092,
  "por_fuente": {
-  "rb": 55659,
+  "rb": 55667,
   "propio+rb": 250,
   "propio": 2175
  },
- "espana": 3027,
+ "espana": 3028,
  "espana_por_fuente": {
-  "rb": 1100,
+  "rb": 1101,
   "propio+rb": 170,
   "propio": 1757
  },
  "repetidas_quitadas": {
-  "total": 18754,
-  "entre_rb": 13521,
+  "total": 18756,
+  "entre_rb": 13523,
   "entre_propios": 4454,
   "propio_con_rb": 779
  },
- "ids_nuevos": 24,
- "ids_conservados": 58060,
+ "ids_nuevos": 58092,
+ "ids_conservados": 0,
  "ids_colision": 0,
- "bytes_emisoras_json_gz": 6637932
+ "bytes_emisoras_json_gz": 6639175
 }
