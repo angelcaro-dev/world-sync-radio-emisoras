@@ -1,0 +1,28 @@
+{
+ "exportacion": "radiobrowser_stations_20261021_055543.json.gz",
+ "registros_rb_entrada": 69426,
+ "items_propios_entrada": 5674,
+ "total": 57331,
+ "por_fuente": {
+  "rb": 55678,
+  "propio+rb": 144,
+  "propio": 1509
+ },
+ "espana": 2778,
+ "espana_por_fuente": {
+  "rb": 1138,
+  "propio+rb": 131,
+  "propio": 1509
+ },
+ "repetidas_quitadas": {
+  "total": 17769,
+  "entre_rb": 13604,
+  "entre_propios": 3688,
+  "propio_con_rb": 477
+ },
+ "ids_nuevos": 0,
+ "ids_conservados": 57331,
+ "ids_colision": 0,
+ "bytes_emisoras_json_gz": 6702233,
+ "incluye_v6": false
+}
