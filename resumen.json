@@ -1,28 +1,251 @@
 {
  "exportacion": "radiobrowser_stations_20261021_055543.json.gz",
  "registros_rb_entrada": 69426,
- "items_propios_entrada": 5674,
- "total": 57331,
+ "items_propios_entrada": 6298,
+ "hallados_entrada": 731,
+ "hallados_suenan": 707,
+ "hallados_no_suenan": 24,
+ "hallados_no_suenan_urls_distintas": 21,
+ "hallados_no_suenan_ejemplos": [
+  "Tea FM | https://cervera.eldialdigital.com:21161/stream",
+  "Cadena 100 Murcia | https://cadena100-streamers-mp3-low.flumotion.com/cope/cadena100-low.mp3",
+  "Armonía Duero | http://37.59.37.173:42840/listen.mp3",
+  "RM Radio | https://cast2.rmradio.es:8053/mira",
+  "COPE Talavera | https://toledo-copesedes-flucast.flumotion.com/copesedes/talavera.mp3.m3u",
+  "RM Radio | https://cast2.rmradio.es:8053/mira",
+  "Qué Guapa | https://cast2.rmradio.es:8056/directo",
+  "Cadena 100 Albacete | https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3",
+  "RM Radio | https://cast2.rmradio.es:8053/campillo",
+  "RM Radio | https://cast2.rmradio.es:8053/mira",
+  "COPE Jiloca | https://directo.radiocalamocha.es:1443/copejiloca.mp3",
+  "Radio Azuaga | https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
+  "Lokura Radio.es HUELVA 95.0FM | https://s5.myradiostream.com/40086/listen.mp3",
+  "UniRadio Jaén | https://uniradio-endirecto.ujaen.es/live",
+  "Rádio Dynâmica FM | https://radio.saopaulo01.com.br:10846/stream"
+ ],
+ "conflictos_lugar": 87,
+ "conflictos_ejemplos": [
+  [
+   "lugar",
+   "Emisoras Musicales",
+   "Zaragoza",
+   "vara:65",
+   "Escucha",
+   "buscador:v6_3"
+  ],
+  [
+   "prov",
+   "Emisoras Musicales",
+   "Z",
+   "vara:65",
+   "TE",
+   "buscador:v6_3"
+  ],
+  [
+   "prov",
+   "esRadio Castilla y León",
+   "VA",
+   "vara:65",
+   "SA",
+   "buscador:d"
+  ],
+  [
+   "prov",
+   "Radiopuebla",
+   "TO",
+   "vara:65",
+   "GR",
+   "buscador:v5_6b"
+  ],
+  [
+   "prov",
+   "Cadena SER Estepa",
+   "SE",
+   "vara:65",
+   "CO",
+   "buscador:a"
+  ],
+  [
+   "lugar",
+   "Cadena SER Cuenca",
+   "Cuenca",
+   "vara:65",
+   "CUENCA",
+   "buscador:v4_1"
+  ],
+  [
+   "lugar",
+   "Radio Marca Sevilla",
+   "Sevilla",
+   "vara:65",
+   "Sevilla Más",
+   "buscador:v4_1"
+  ],
+  [
+   "prov",
+   "Onda Cero Baza",
+   "GR",
+   "vara:65",
+   "AL",
+   "buscador:a"
+  ],
+  [
+   "prov",
+   "Muy Buena Torrevieja",
+   "A",
+   "vara:99",
+   "MU",
+   "buscador:a"
+  ],
+  [
+   "prov",
+   "Onda Cero Torrevieja",
+   "A",
+   "vara:65",
+   "MU",
+   "buscador:a"
+  ],
+  [
+   "prov",
+   "radiohellin",
+   "AB",
+   "vara:65",
+   "SA",
+   "buscador:b"
+  ],
+  [
+   "lugar",
+   "Radio en directo | Onda Cádiz RTV",
+   "Cadiz",
+   "vara:65",
+   "Cadis",
+   "buscador:v6_4"
+  ],
+  [
+   "prov",
+   "esRadio Salamanca 103.4 FM",
+   "SA",
+   "vara:65",
+   "ZA",
+   "buscador:d"
+  ],
+  [
+   "prov",
+   "HOUSE Radio Spain – Our House is Your House",
+   "AB",
+   "vara:65",
+   "M",
+   "buscador:d"
+  ],
+  [
+   "prov",
+   "Onda plana santa cruz de la zarza",
+   "TO",
+   "vara:65",
+   "SA",
+   "buscador:v1_1"
+  ],
+  [
+   "lugar",
+   "Europa FM Burgos",
+   "Burgos",
+   "vara:65",
+   "Castilla",
+   "buscador:v4_1"
+  ],
+  [
+   "lugar",
+   "Onda Cero Motril",
+   "Motril",
+   "vara:99",
+   "motril",
+   "buscador:v1_3"
+  ],
+  [
+   "lugar",
+   "Europa FM Salamanca",
+   "Salamanca",
+   "vara:65",
+   "SALAMANCA",
+   "buscador:v4_1"
+  ],
+  [
+   "prov",
+   "Europa FM Salamanca",
+   "SA",
+   "vara:65",
+   "ZA",
+   "buscador:v1_3"
+  ],
+  [
+   "lugar",
+   "Europa FM Ourense",
+   "Ourense",
+   "vara:65",
+   "ourense",
+   "buscador:v1_3"
+  ],
+  [
+   "lugar",
+   "Europa FM Sevilla",
+   "Sevilla",
+   "vara:65",
+   "Sevilla Más",
+   "buscador:v4_1"
+  ],
+  [
+   "lugar",
+   "Canal Sur Huétor Vega",
+   "Huelva",
+   "vara:65",
+   "Huétor Vega",
+   "buscador:v1_3"
+  ],
+  [
+   "prov",
+   "Canal Sur Huétor Vega",
+   "H",
+   "vara:65",
+   "GR",
+   "buscador:v1_3"
+  ],
+  [
+   "lugar",
+   "Canal Sur El Coronil",
+   "Córdoba",
+   "vara:65",
+   "El Coronil",
+   "buscador:v1_3"
+  ],
+  [
+   "prov",
+   "Canal Sur El Coronil",
+   "CO",
+   "vara:65",
+   "SE",
+   "buscador:v1_3"
+  ]
+ ],
+ "total": 57871,
  "por_fuente": {
-  "rb": 55678,
-  "propio+rb": 144,
-  "propio": 1509
+  "rb": 55650,
+  "propio+rb": 172,
+  "propio": 2049
  },
- "espana": 2778,
+ "espana": 3020,
  "espana_por_fuente": {
-  "rb": 1138,
-  "propio+rb": 131,
-  "propio": 1509
+  "rb": 1113,
+  "propio+rb": 158,
+  "propio": 1749
  },
  "repetidas_quitadas": {
-  "total": 17769,
-  "entre_rb": 13604,
-  "entre_propios": 3688,
-  "propio_con_rb": 477
+  "total": 18560,
+  "entre_rb": 13569,
+  "entre_propios": 4355,
+  "propio_con_rb": 636
  },
  "ids_nuevos": 0,
- "ids_conservados": 57331,
+ "ids_conservados": 57871,
  "ids_colision": 0,
- "bytes_emisoras_json_gz": 6702233,
- "incluye_v6": false
+ "bytes_emisoras_json_gz": 6773340
 }
