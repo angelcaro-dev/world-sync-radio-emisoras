@@ -1,30 +1,149 @@
 {
- "exportacion": "radiobrowser_stations_20261021_055543.json.gz",
- "registros_rb_entrada": 69426,
+ "origen_rb": "radiobrowser_api_20261021.json.gz",
+ "campos_nuevos": {
+  "formato": {
+   "total": 57587,
+   "espana": 2969
+  },
+  "kbps": {
+   "total": 48571,
+   "espana": 2809
+  },
+  "estilos": {
+   "total": 31032,
+   "espana": 758
+  },
+  "ambito": {
+   "total": 3367,
+   "espana": 2078
+  },
+  "cadena": {
+   "total": 1670,
+   "espana": 1152
+  },
+  "madre": {
+   "total": 1565,
+   "espana": 1111
+  },
+  "frecuencia": {
+   "total": 5890,
+   "espana": 151
+  },
+  "urls_recambio": {
+   "total": 1282,
+   "espana": 57
+  },
+  "ultimo_chequeo": {
+   "total": 58052,
+   "espana": 3027
+  },
+  "url_resuelta": {
+   "total": 5408,
+   "espana": 849
+  },
+  "suena": {
+   "total": 58084,
+   "espana": 3027
+  },
+  "lugares_otros": {
+   "total": 449,
+   "espana": 449
+  },
+  "provs_otras": {
+   "total": 204,
+   "espana": 204
+  }
+ },
+ "suenan": {
+  "si": 52102,
+  "no": 5982,
+  "sin_dato": 0,
+  "espana_si": 2879,
+  "espana_no": 148
+ },
+ "estado_comprobacion": 2202,
+ "ambitos": {
+  "null": 54717,
+  "internet": 770,
+  "local": 2253,
+  "provincial": 221,
+  "nacional": 96,
+  "regional": 27
+ },
+ "formatos": {
+  "HLS": 4431,
+  "MP3": 38660,
+  "AAC+": 8041,
+  "AAC": 5882,
+  "null": 497,
+  "OGG": 568,
+  "FLAC": 5
+ },
+ "registros_rb_entrada": 69515,
  "items_propios_entrada": 6298,
- "hallados_entrada": 731,
- "hallados_suenan": 707,
- "hallados_no_suenan": 24,
- "hallados_no_suenan_urls_distintas": 21,
+ "hallados_entrada": 1047,
+ "hallados_suenan": 1025,
+ "hallados_no_suenan": 22,
+ "hallados_no_suenan_urls_distintas": 20,
  "hallados_no_suenan_ejemplos": [
   "Tea FM | https://cervera.eldialdigital.com:21161/stream",
-  "Cadena 100 Murcia | https://cadena100-streamers-mp3-low.flumotion.com/cope/cadena100-low.mp3",
   "Armonía Duero | http://37.59.37.173:42840/listen.mp3",
   "RM Radio | https://cast2.rmradio.es:8053/mira",
-  "COPE Talavera | https://toledo-copesedes-flucast.flumotion.com/copesedes/talavera.mp3.m3u",
   "RM Radio | https://cast2.rmradio.es:8053/mira",
   "Qué Guapa | https://cast2.rmradio.es:8056/directo",
-  "Cadena 100 Albacete | https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3",
   "RM Radio | https://cast2.rmradio.es:8053/campillo",
   "RM Radio | https://cast2.rmradio.es:8053/mira",
   "COPE Jiloca | https://directo.radiocalamocha.es:1443/copejiloca.mp3",
   "Radio Azuaga | https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
   "Lokura Radio.es HUELVA 95.0FM | https://s5.myradiostream.com/40086/listen.mp3",
   "UniRadio Jaén | https://uniradio-endirecto.ujaen.es/live",
-  "Rádio Dynâmica FM | https://radio.saopaulo01.com.br:10846/stream"
+  "Litoral FM 96.1 | https://shout35.crossradio.com.br:24090/1",
+  "Border Radio | https://stream.border-radio.it/radio.mp3",
+  "Radio DUX | http://icecast.radiodux.me:8000/radiodux",
+  "WMTM Cruisin'94 WMTM Cruisin'94 | http://us4.internet-radio.com:8143/listen.pls"
  ],
- "conflictos_lugar": 87,
+ "conflictos_lugar": 119,
  "conflictos_ejemplos": [
+  [
+   "lugar_del_nombre",
+   "Cadena Ser - Las Palmas",
+   "Las Palmas",
+   "buscador:v4_1",
+   "Canarias",
+   "vara (lugar no esta en el nombre)"
+  ],
+  [
+   "lugar_del_nombre",
+   "Cadena SER - Radio Morón",
+   "Morón",
+   "buscador:v4_1",
+   "Morón de la Frontera",
+   "vara (lugar no esta en el nombre)"
+  ],
+  [
+   "lugar_del_nombre",
+   "CADENA SER (Aviles)",
+   "Avilés",
+   "buscador:v4_1",
+   "Oviedo",
+   "vara (lugar no esta en el nombre)"
+  ],
+  [
+   "lugar_del_nombre",
+   "Cadena SER Coruña",
+   "Coruña",
+   "buscador:v4_1",
+   "La Coruña",
+   "vara (lugar no esta en el nombre)"
+  ],
+  [
+   "prov",
+   "esRadio Castilla y León",
+   "VA",
+   "vara:65",
+   "SA",
+   "buscador:d"
+  ],
   [
    "lugar",
    "Emisoras Musicales",
@@ -42,12 +161,12 @@
    "buscador:v6_3"
   ],
   [
-   "prov",
-   "esRadio Castilla y León",
-   "VA",
-   "vara:65",
-   "SA",
-   "buscador:d"
+   "lugar_del_nombre",
+   "Radio Jerez",
+   "Jerez",
+   "buscador:v4_1",
+   "Jerez de la Frontera",
+   "vara (lugar no esta en el nombre)"
   ],
   [
    "prov",
@@ -56,6 +175,22 @@
    "vara:65",
    "GR",
    "buscador:v5_6b"
+  ],
+  [
+   "lugar_del_nombre",
+   "SER Castro Urdiales",
+   "Castro Urdiales",
+   "buscador:v4_1",
+   "Santander",
+   "vara (lugar no esta en el nombre)"
+  ],
+  [
+   "lugar_del_nombre",
+   "SER Torrelavega",
+   "Torrelavega",
+   "buscador:v4_1",
+   "Santander",
+   "vara (lugar no esta en el nombre)"
   ],
   [
    "prov",
@@ -114,12 +249,44 @@
    "buscador:b"
   ],
   [
+   "lugar_del_nombre",
+   "Radiolé Costa de la Luz – Radiolé Costa de la Luz",
+   "Costa de la Luz",
+   "buscador:v4_1",
+   "Lepe",
+   "vara (lugar no esta en el nombre)"
+  ],
+  [
+   "lugar_del_nombre",
+   "Radio Rinconada 104.7 Fm Sevilla, España",
+   "Sevilla",
+   "buscador:v1_1",
+   "La Rinconada",
+   "vara (lugar no esta en el nombre)"
+  ],
+  [
    "lugar",
    "Radio en directo | Onda Cádiz RTV",
    "Cadiz",
    "vara:65",
    "Cadis",
    "buscador:v6_4"
+  ],
+  [
+   "lugar_del_nombre",
+   "Ràdio Calella Televisió",
+   "Calella",
+   "buscador:v2_4",
+   "Alella",
+   "vara (lugar no esta en el nombre)"
+  ],
+  [
+   "lugar_del_nombre",
+   "Ràdio Calella Televisió",
+   "Calella",
+   "buscador:v2_4",
+   "Alella",
+   "vara (lugar no esta en el nombre)"
   ],
   [
    "prov",
@@ -136,116 +303,28 @@
    "vara:65",
    "M",
    "buscador:d"
-  ],
-  [
-   "prov",
-   "Onda plana santa cruz de la zarza",
-   "TO",
-   "vara:65",
-   "SA",
-   "buscador:v1_1"
-  ],
-  [
-   "lugar",
-   "Europa FM Burgos",
-   "Burgos",
-   "vara:65",
-   "Castilla",
-   "buscador:v4_1"
-  ],
-  [
-   "lugar",
-   "Onda Cero Motril",
-   "Motril",
-   "vara:99",
-   "motril",
-   "buscador:v1_3"
-  ],
-  [
-   "lugar",
-   "Europa FM Salamanca",
-   "Salamanca",
-   "vara:65",
-   "SALAMANCA",
-   "buscador:v4_1"
-  ],
-  [
-   "prov",
-   "Europa FM Salamanca",
-   "SA",
-   "vara:65",
-   "ZA",
-   "buscador:v1_3"
-  ],
-  [
-   "lugar",
-   "Europa FM Ourense",
-   "Ourense",
-   "vara:65",
-   "ourense",
-   "buscador:v1_3"
-  ],
-  [
-   "lugar",
-   "Europa FM Sevilla",
-   "Sevilla",
-   "vara:65",
-   "Sevilla Más",
-   "buscador:v4_1"
-  ],
-  [
-   "lugar",
-   "Canal Sur Huétor Vega",
-   "Huelva",
-   "vara:65",
-   "Huétor Vega",
-   "buscador:v1_3"
-  ],
-  [
-   "prov",
-   "Canal Sur Huétor Vega",
-   "H",
-   "vara:65",
-   "GR",
-   "buscador:v1_3"
-  ],
-  [
-   "lugar",
-   "Canal Sur El Coronil",
-   "Córdoba",
-   "vara:65",
-   "El Coronil",
-   "buscador:v1_3"
-  ],
-  [
-   "prov",
-   "Canal Sur El Coronil",
-   "CO",
-   "vara:65",
-   "SE",
-   "buscador:v1_3"
   ]
  ],
- "total": 57871,
+ "total": 58084,
  "por_fuente": {
-  "rb": 55650,
-  "propio+rb": 172,
-  "propio": 2049
+  "rb": 55659,
+  "propio+rb": 250,
+  "propio": 2175
  },
- "espana": 3020,
+ "espana": 3027,
  "espana_por_fuente": {
-  "rb": 1113,
-  "propio+rb": 158,
-  "propio": 1749
+  "rb": 1100,
+  "propio+rb": 170,
+  "propio": 1757
  },
  "repetidas_quitadas": {
-  "total": 18560,
-  "entre_rb": 13569,
-  "entre_propios": 4355,
-  "propio_con_rb": 636
+  "total": 18754,
+  "entre_rb": 13521,
+  "entre_propios": 4454,
+  "propio_con_rb": 779
  },
- "ids_nuevos": 0,
- "ids_conservados": 57871,
+ "ids_nuevos": 24,
+ "ids_conservados": 58060,
  "ids_colision": 0,
- "bytes_emisoras_json_gz": 6773340
+ "bytes_emisoras_json_gz": 6637932
 }
