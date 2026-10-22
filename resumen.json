@@ -2,27 +2,27 @@
  "origen_rb": "radiobrowser_api_20261021.json.gz",
  "campos_nuevos": {
   "formato": {
-   "total": 68184,
+   "total": 68323,
    "espana": 3183
   },
   "kbps": {
-   "total": 58648,
+   "total": 58775,
    "espana": 3018
   },
   "estilos": {
-   "total": 35509,
+   "total": 35528,
    "espana": 820
   },
   "ambito": {
-   "total": 9184,
+   "total": 9185,
    "espana": 2087
   },
   "cadena": {
-   "total": 2218,
+   "total": 2223,
    "espana": 1160
   },
   "madre": {
-   "total": 2096,
+   "total": 2101,
    "espana": 1119
   },
   "frecuencia": {
@@ -30,19 +30,19 @@
    "espana": 154
   },
   "urls_recambio": {
-   "total": 1706,
+   "total": 1747,
    "espana": 62
   },
   "ultimo_chequeo": {
-   "total": 68654,
+   "total": 68793,
    "espana": 3225
   },
   "url_resuelta": {
-   "total": 8985,
+   "total": 9049,
    "espana": 859
   },
   "suena": {
-   "total": 68683,
+   "total": 68822,
    "espana": 3225
   },
   "lugares_otros": {
@@ -55,32 +55,32 @@
   }
  },
  "suenan": {
-  "si": 62718,
+  "si": 62857,
   "no": 5965,
   "sin_dato": 0,
   "espana_si": 3093,
   "espana_no": 132
  },
- "estado_comprobacion": 17900,
+ "estado_comprobacion": 18112,
  "ambitos": {
-  "null": 59499,
-  "local": 8090,
+  "null": 59637,
+  "local": 8091,
   "internet": 755,
   "provincial": 221,
   "nacional": 90,
   "regional": 28
  },
  "formatos": {
-  "HLS": 4512,
-  "MP3": 46848,
+  "HLS": 4584,
+  "MP3": 46906,
   "AAC+": 8964,
-  "AAC": 7030,
+  "AAC": 7039,
   "null": 499,
   "OGG": 823,
   "FLAC": 7
  },
  "registros_rb_entrada": 69515,
- "items_propios_entrada": 22191,
+ "items_propios_entrada": 22392,
  "hallados_entrada": 907,
  "hallados_suenan": 888,
  "hallados_no_suenan": 19,
@@ -305,11 +305,11 @@
    "buscador:d"
   ]
  ],
- "total": 68683,
+ "total": 68822,
  "por_fuente": {
-  "rb": 50599,
-  "propio+rb": 5310,
-  "propio": 12774
+  "rb": 50537,
+  "propio+rb": 5372,
+  "propio": 12913
  },
  "espana": 3225,
  "espana_por_fuente": {
@@ -318,13 +318,13 @@
   "propio": 1955
  },
  "repetidas_quitadas": {
-  "total": 23911,
-  "entre_rb": 11599,
+  "total": 23973,
+  "entre_rb": 11529,
   "entre_propios": 4546,
-  "propio_con_rb": 7766
+  "propio_con_rb": 7898
  },
- "ids_nuevos": 0,
- "ids_conservados": 68683,
+ "ids_nuevos": 143,
+ "ids_conservados": 68679,
  "ids_colision": 0,
- "bytes_emisoras_json_gz": 7276725
+ "bytes_emisoras_json_gz": 7287851
 }
