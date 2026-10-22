@@ -2,19 +2,19 @@
  "origen_rb": "radiobrowser_api_20261021.json.gz",
  "campos_nuevos": {
   "formato": {
-   "total": 68486,
+   "total": 68490,
    "espana": 3199
   },
   "kbps": {
-   "total": 58919,
+   "total": 58923,
    "espana": 3034
   },
   "estilos": {
-   "total": 35535,
+   "total": 35537,
    "espana": 820
   },
   "ambito": {
-   "total": 9331,
+   "total": 9335,
    "espana": 2103
   },
   "cadena": {
@@ -34,7 +34,7 @@
    "espana": 62
   },
   "ultimo_chequeo": {
-   "total": 68956,
+   "total": 68960,
    "espana": 3241
   },
   "url_resuelta": {
@@ -42,7 +42,7 @@
    "espana": 877
   },
   "suena": {
-   "total": 68985,
+   "total": 68989,
    "espana": 3241
   },
   "lugares_otros": {
@@ -55,16 +55,16 @@
   }
  },
  "suenan": {
-  "si": 63021,
+  "si": 63025,
   "no": 5964,
   "sin_dato": 0,
   "espana_si": 3109,
   "espana_no": 132
  },
- "estado_comprobacion": 18334,
+ "estado_comprobacion": 18338,
  "ambitos": {
   "null": 59654,
-  "local": 8223,
+  "local": 8227,
   "internet": 755,
   "provincial": 221,
   "nacional": 91,
@@ -72,15 +72,15 @@
  },
  "formatos": {
   "HLS": 4594,
-  "MP3": 47036,
-  "AAC+": 8975,
+  "MP3": 47039,
+  "AAC+": 8976,
   "AAC": 7050,
   "null": 499,
   "OGG": 824,
   "FLAC": 7
  },
  "registros_rb_entrada": 69515,
- "items_propios_entrada": 22607,
+ "items_propios_entrada": 22611,
  "hallados_entrada": 907,
  "hallados_suenan": 888,
  "hallados_no_suenan": 19,
@@ -305,11 +305,11 @@
    "buscador:d"
   ]
  ],
- "total": 68985,
+ "total": 68989,
  "por_fuente": {
   "rb": 50487,
   "propio+rb": 5422,
-  "propio": 13076
+  "propio": 13080
  },
  "espana": 3241,
  "espana_por_fuente": {
@@ -323,8 +323,8 @@
   "entre_propios": 4548,
   "propio_con_rb": 7973
  },
- "ids_nuevos": 167,
- "ids_conservados": 68818,
+ "ids_nuevos": 4,
+ "ids_conservados": 68985,
  "ids_colision": 0,
- "bytes_emisoras_json_gz": 7306496
+ "bytes_emisoras_json_gz": 7306735
 }
