@@ -14,6 +14,7 @@ New / Nuevos:
 - `ambito`: local / comarcal / provincial / regional / nacional / internet (empty if unknown). `cadena`: network (SER, COPE, Onda Cero...) and `madre` (parent network name) for local branches. `frecuencia`: "FM 103.4" / "AM 1017" when known.
 - `urls_recambio`: alternative stream URLs of the same station. `lugares_otros`, `provs_otras`: other places the same stream serves.
 - `fuente` (`rb`, `propio`, `propio+rb`) and `fuentes` (every source that found it).
+- Places worldwide (Oct 2026): outside Spain, `lugar` (place), `lat`/`lon` and `region` (GeoNames admin1 code of the country) are filled when they can be: from the station's own data, from Radio-Browser's `state` field (`estado_nombre`), from a place name of its own country in the station name or tags, or from the nearest GeoNames place to its coordinates. `lugar_de` says which (`dato`, `estado`, `texto`, `coords`). `geo_pais` = true means the coordinates are those of a whole country, not of a place (ignore them). `estados_otros`, `coords_otras`, `paises_otros`, `nombres_otros`: what the other Radio-Browser entries with the same stream say (state, coordinates, country, name). `coords_de`: `dato` (coordinates from the station's own record) or `lugar` (those of the place we assigned). `escuchas`, `votos`: Radio-Browser click count and votes (popularity).
 
 ## Sources / Origen
 - [Radio-Browser](https://www.radio-browser.info/) full list through its API (`/json/stations`), downloaded weekly (export dump as fallback). Radio-Browser: "You may use it in free and non free software." ([api.radio-browser.info](https://api.radio-browser.info/))
@@ -21,6 +22,7 @@ New / Nuevos:
 - Station lists and addresses found by World Sync Radio in Europe (Oct 2026): public web pages and streams of each station, Icecast status pages of known servers, Wikipedia (CC BY-SA 4.0, names and links only), Wikidata (CC0), OpenStreetMap (ODbL).
 
 ## Attributions (CC BY and open licences) / Atribuciones
+- **Places of the world**: GeoNames (<https://www.geonames.org>, populated places, first-level administrative divisions and alternate names `alternateNamesV2`), licence CC BY 4.0. Used to put a place, coordinates and region on the stations outside Spain and to find places by their name in any of the app's 40 languages and the local language (`lugares_alt.tsv.gz`).
 Some stations were located with the help of these open datasets; each such station lists it in `fuentes` (`cc-by:...`):
 - **Portugal**: "Rádios em Portugal: websites e histórico de versões no Arquivo.pt", [dados.gov.pt](https://dados.gov.pt/) (Arquivo.pt), licence CC BY.
 - **Finland**: Traficom, Radioasematiedot, [opendata.traficom.fi](https://opendata.traficom.fi/api/v1/Radioasematiedot), CC BY 4.0.
