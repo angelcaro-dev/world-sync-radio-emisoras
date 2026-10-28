@@ -1,12 +1,12 @@
 {
  "formato": 2,
- "emisoras": 68981,
+ "emisoras": 71623,
  "fecha": "2026-10-28",
  "ficheros": {
   "base.wsr.xz": {
-   "bytes": 3344780,
-   "crudo": 15867685,
-   "sha256": "30750b3c6d3caef46f29e123d8dbc8c37a1f775642b91e94ac4d1af6073041a1"
+   "bytes": 3428800,
+   "crudo": 16253082,
+   "sha256": "7a028887518652d5632af87f82ae4c1f28e1a382060e57747b42440df2c6a02e"
   },
   "lugares.wsr.xz": {
    "bytes": 3923612,

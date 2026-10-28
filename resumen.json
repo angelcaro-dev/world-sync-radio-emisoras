@@ -1,92 +1,291 @@
 {
- "origen_rb": "radiobrowser_api_20261026.json.gz",
+ "origen_rb": "radiobrowser_api_20261021.json.gz",
  "campos_nuevos": {
   "formato": {
-   "total": 68942,
-   "espana": 3211
+   "total": 70448,
+   "espana": 3267
   },
   "kbps": {
-   "total": 59325,
-   "espana": 3045
+   "total": 60961,
+   "espana": 3103
   },
   "estilos": {
-   "total": 35792,
-   "espana": 829
+   "total": 36163,
+   "espana": 865
   },
   "ambito": {
-   "total": 26548,
-   "espana": 2104
+   "total": 28282,
+   "espana": 2112
   },
   "cadena": {
-   "total": 2243,
-   "espana": 1177
+   "total": 2248,
+   "espana": 1182
   },
   "madre": {
-   "total": 2116,
-   "espana": 1135
+   "total": 2123,
+   "espana": 1140
   },
   "frecuencia": {
-   "total": 6046,
-   "espana": 154
+   "total": 6110,
+   "espana": 179
   },
   "urls_recambio": {
-   "total": 1818,
-   "espana": 63
+   "total": 1825,
+   "espana": 67
   },
   "ultimo_chequeo": {
-   "total": 69449,
-   "espana": 3255
+   "total": 71594,
+   "espana": 3642
   },
   "url_resuelta": {
-   "total": 9212,
-   "espana": 878
+   "total": 9527,
+   "espana": 1054
   },
   "suena": {
-   "total": 69457,
-   "espana": 3255
+   "total": 71623,
+   "espana": 3642
   },
   "lugares_otros": {
-   "total": 451,
-   "espana": 449
+   "total": 331,
+   "espana": 329
   },
   "provs_otras": {
-   "total": 204,
-   "espana": 204
+   "total": 143,
+   "espana": 143
   }
  },
  "suenan": {
-  "si": 63551,
-  "no": 5906,
+  "si": 65657,
+  "no": 5966,
   "sin_dato": 0,
-  "espana_si": 3122,
-  "espana_no": 133
+  "espana_si": 3508,
+  "espana_no": 134
  },
- "estado_comprobacion": 18524,
+ "estado_comprobacion": 21166,
  "ambitos": {
-  "local": 20380,
-  "null": 42909,
-  "regional": 5103,
-  "internet": 750,
+  "local": 20479,
+  "regional": 6662,
+  "null": 43341,
+  "internet": 828,
   "provincial": 221,
-  "nacional": 94
+  "nacional": 92
  },
  "formatos": {
-  "HLS": 4624,
-  "MP3": 47365,
-  "AAC+": 8995,
-  "AAC": 7121,
-  "null": 515,
-  "OGG": 830,
+  "HLS": 4594,
+  "MP3": 48839,
+  "AAC+": 8989,
+  "AAC": 7195,
+  "null": 1175,
+  "OGG": 824,
   "FLAC": 7
  },
- "registros_rb_entrada": 70145,
- "items_propios_entrada": 23666,
- "hallados_entrada": 0,
- "hallados_suenan": 0,
- "hallados_no_suenan": 0,
- "hallados_no_suenan_urls_distintas": 0,
- "hallados_no_suenan_ejemplos": [],
- "conflictos_lugar": 119,
+ "registros_rb_entrada": 69515,
+ "items_propios_entrada": 25420,
+ "hallados_entrada": 907,
+ "hallados_suenan": 888,
+ "hallados_no_suenan": 19,
+ "hallados_no_suenan_urls_distintas": 17,
+ "hallados_no_suenan_ejemplos": [
+  "Tea FM | https://cervera.eldialdigital.com:21161/stream",
+  "Armonía Duero | http://37.59.37.173:42840/listen.mp3",
+  "RM Radio | https://cast2.rmradio.es:8053/mira",
+  "RM Radio | https://cast2.rmradio.es:8053/mira",
+  "Qué Guapa | https://cast2.rmradio.es:8056/directo",
+  "RM Radio | https://cast2.rmradio.es:8053/campillo",
+  "RM Radio | https://cast2.rmradio.es:8053/mira",
+  "COPE Jiloca | https://directo.radiocalamocha.es:1443/copejiloca.mp3",
+  "Radio Azuaga | https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
+  "UniRadio Jaén | https://uniradio-endirecto.ujaen.es/live",
+  "Border Radio | https://stream.border-radio.it/radio.mp3",
+  "Radio DUX | http://icecast.radiodux.me:8000/radiodux",
+  "WMTM Cruisin'94 WMTM Cruisin'94 | http://us4.internet-radio.com:8143/listen.pls",
+  "WKTE1090 | http://162.39.81.145:88/broadwave.mp3",
+  "Welcome to WPJM 800 AM | https://janus.cdnstream.com:2199/tunein/wpjm.ram"
+ ],
+ "nombres_cambiados": {
+  "generico:dominio": 44,
+  "dominio:otra_fuente": 8,
+  "generico:otra_fuente": 1,
+  "titulo_web:titulo_limpio": 16,
+  "dominio:por_url": 1,
+  "titulo_web:ayuntamiento": 3,
+  "generico:por_url": 78,
+  "titulo_web:otra_fuente": 2
+ },
+ "nombres_cambiados_ejemplos": {
+  "generico:dominio": [
+   [
+    "",
+    "fqxww.cn",
+    "https://vip1.fhbf9.com/20210705/eoQxrzxS/index.m3u8"
+   ],
+   [
+    "",
+    "fqxww.cn",
+    "https://vip1.fhbf9.com/20210705/63Zb2fOi/index.m3u8"
+   ],
+   [
+    "Radio",
+    "laut.fm",
+    "https://laut.fm/radio"
+   ],
+   [
+    "Radio",
+    "radioseaflower.com",
+    "https://sp1.zonacreativos.com/8210/stream"
+   ],
+   [
+    "No Name",
+    "laarena.com.ar",
+    "https://radio02.ferozo.com/proxy/ra02001611?mp=/stream"
+   ],
+   [
+    "no name",
+    "mqrvillena.com",
+    "https://radioserver11.profesionalhosting.com/proxy/pkg110818?mp=/stream"
+   ]
+  ],
+  "dominio:otra_fuente": [
+   [
+    "https://truskoolbreakz.com/now-playing/",
+    "TruSkOOlBreAkz",
+    "http://ec2.yesstreaming.net:4450/stream"
+   ],
+   [
+    "ProgRock.com",
+    "Progrock'com",
+    "http://pavo.prostreaming.net:8012/stream"
+   ],
+   [
+    "http://radio.guijuelo.es/",
+    "Radio Guijuelo",
+    "http://radio.guijuelo.es/emision/directo.ogg"
+   ],
+   [
+    "http://radio.guijuelo.es/",
+    "Radio Guijuelo",
+    "http://radio.guijuelo.es/emision/directo.mp3"
+   ],
+   [
+    "Rockabilly-Radio.net",
+    "Rockabilly Radio",
+    "http://lin3.ash.fast-serv.com:6026/stream_96"
+   ],
+   [
+    "StreamingSoundtracks.com",
+    "StreamingSoundtracks.com Hi",
+    "http://www.streamingsoundtracks.com/modules/Listen/MP3-hi.pls"
+   ]
+  ],
+  "generico:otra_fuente": [
+   [
+    "My Radio",
+    "MyRadio",
+    "http://myradioug.duckdns.org:8000/radio.mp3"
+   ]
+  ],
+  "titulo_web:titulo_limpio": [
+   [
+    "WCDI - Home Of Compound, Concentrate's and Coffee",
+    "WCDI",
+    "https://streaming.live365.com/a67895"
+   ],
+   [
+    "WRCW RADIO - HOME OF GUNSMOKE",
+    "WRCW RADIO",
+    "https://streaming.live365.com/a64449"
+   ],
+   [
+    "Inicio | Onda Cádiz RTV",
+    "Onda Cádiz RTV",
+    "https://ondacadiztv.es:30443/octv/directo_multi/playlist.m3u8"
+   ],
+   [
+    "INICIO - Onda Cero Puente Genil",
+    "Onda Cero Puente Genil",
+    "https://www.ivoox.com/11-12-2025-mas-uno-puente-genil_mf_164157860_feed_1.mp3"
+   ],
+   [
+    "Radio Comites Madrid - Inicio",
+    "Radio Comites Madrid",
+    "https://mpc.my-control-panel.eu/stream/radiocomitesmadrid"
+   ],
+   [
+    "Radio Cúllar FM - Inicio",
+    "Radio Cúllar FM",
+    "https://streaming2.elitecomunicacion.es:8120/stream?type=.mp3"
+   ]
+  ],
+  "dominio:por_url": [
+   [
+    "dialronda.es",
+    "Dialaso Ronda",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/DIAL_ASO_RONDA.mp3?_=1"
+   ]
+  ],
+  "titulo_web:ayuntamiento": [
+   [
+    "Inicio | Ayuntamiento de San Clemente, Cuenca",
+    "Radio San Clemente",
+    "http://ondascl.sanclemente.es:8443/play.mp3"
+   ],
+   [
+    "Concello de Castro de Rei | Páxina Web Oficial | Concello de Castro de Rei | Web Oficial",
+    "Radio Castro de Rei",
+    "https://vod-adaptive-ak.vimeocdn.com/exp=1792574057~acl=%2F9b6b7fdf-66c5-4c30-8ddc-3bd71faf50d1%2Fpsid%3Da4d0cb3dd30fd8a22afb3a011fb8274687bf30591792570457%2F%2A~hmac=b59575a6390f77adbf5447ebd5879a5136be44942dc311f6045d94e0c98fc5c8/9b6b7fdf-66c5-4c30-8ddc-3bd71faf50d1/psid=a4d0cb3dd30fd8a22afb3a011fb8274687bf30591792570457/v2/playlist/av/primary/playlist.m3u8?locale=es&omit=av1-hevc-opus&pathsig=8c953e4f~zwjum3wLk5ad-eP2zW2x-0wbdDtTcjZHzYXEffJDZtM&r=dXM%3D&rh=2JlNbV&sf=fmp4"
+   ],
+   [
+    "Concello de Castro de Rei | Páxina Web Oficial | Concello de Castro de Rei | Web Oficial",
+    "Radio Castro de Rei",
+    "https://vod-adaptive-ak.vimeocdn.com/exp=1792574057~acl=%2F9b6b7fdf-66c5-4c30-8ddc-3bd71faf50d1%2Fpsid%3Da4d0cb3dd30fd8a22afb3a011fb8274687bf30591792570457%2F%2A~hmac=b59575a6390f77adbf5447ebd5879a5136be44942dc311f6045d94e0c98fc5c8/9b6b7fdf-66c5-4c30-8ddc-3bd71faf50d1/psid=a4d0cb3dd30fd8a22afb3a011fb8274687bf30591792570457/v2/playlist/av/primary/playlist.m3u8?locale=es&omit=av1-h264-opus&pathsig=8c953e4f~zwjum3wLk5ad-eP2zW2x-0wbdDtTcjZHzYXEffJDZtM&r=dXM%3D&rh=2JlNbV&sf=fmp4"
+   ]
+  ],
+  "generico:por_url": [
+   [
+    "Unspecified name",
+    "Ahora Radio Gelves",
+    "https://streaming.enacast.com/ahoraradiogelvesHD.mp3"
+   ],
+   [
+    "Unspecified name",
+    "Ahora Radio Gelves",
+    "https://streaming.enacast.com/ahoraradiogelvesSD.mp3"
+   ],
+   [
+    "Unspecified name",
+    "Radio Aldaia",
+    "https://streaming.enacast.com/aldaiaradioHD.mp3"
+   ],
+   [
+    "Unspecified name",
+    "Radio Aldaia",
+    "https://streaming.enacast.com/aldaiaradioSD.mp3"
+   ],
+   [
+    "Unspecified name",
+    "Radio Canals",
+    "https://streaming.enacast.com/canalsradioHD.mp3"
+   ],
+   [
+    "Unspecified name",
+    "Radio Canals",
+    "https://streaming.enacast.com/canalsradioSD.mp3"
+   ]
+  ],
+  "titulo_web:otra_fuente": [
+   [
+    "Ayuntamiento de Iniesta – Web Oficial",
+    "Radio Iniesta – Ayuntamiento de Iniesta",
+    "https://stream10.usastreams.com/8056/stream"
+   ],
+   [
+    "Inicio | Ayuntamiento de Vitigudino",
+    "Emisora Municipal de Radio | Ayuntamiento de Vitigudino",
+    "http://198.100.145.187:13840/;?type=http&nocache=67931"
+   ]
+  ]
+ },
+ "conflictos_lugar": 423,
  "conflictos_ejemplos": [
   [
    "lugar_del_nombre",
@@ -289,54 +488,54 @@
    "buscador:d"
   ]
  ],
- "total": 69457,
+ "total": 71623,
  "por_fuente": {
-  "rb": 50788,
-  "propio+rb": 5602,
-  "propio": 13067
+  "rb": 50312,
+  "propio+rb": 5597,
+  "propio": 15714
  },
- "espana": 3255,
+ "espana": 3642,
  "espana_por_fuente": {
-  "rb": 1109,
-  "propio+rb": 177,
-  "propio": 1969
+  "rb": 1095,
+  "propio+rb": 175,
+  "propio": 2372
  },
  "repetidas_quitadas": {
-  "total": 24354,
-  "entre_rb": 11546,
-  "entre_propios": 4546,
-  "propio_con_rb": 8262
+  "total": 24200,
+  "entre_rb": 11407,
+  "entre_propios": 4548,
+  "propio_con_rb": 8245
  },
  "lugares_por_pais": {
   "AD": {
-   "total": 7,
+   "total": 10,
    "lugar_antes": 1,
    "lat_antes": 1,
    "lugar_despues": 1,
    "lat_despues": 1,
    "region_despues": 1,
-   "de_None": 6,
+   "de_None": 9,
    "de_dato": 1
   },
   "AE": {
-   "total": 634,
+   "total": 637,
    "lugar_antes": 0,
    "lat_antes": 36,
    "lugar_despues": 25,
    "lat_despues": 41,
    "region_despues": 327,
-   "de_None": 609,
+   "de_None": 612,
    "de_texto": 5,
    "de_coords": 20
   },
   "AF": {
-   "total": 74,
+   "total": 76,
    "lugar_antes": 0,
    "lat_antes": 2,
    "lugar_despues": 2,
    "lat_despues": 2,
    "region_despues": 2,
-   "de_None": 72,
+   "de_None": 74,
    "de_texto": 1,
    "de_coords": 1
   },
@@ -359,14 +558,14 @@
    "de_None": 5
   },
   "AL": {
-   "total": 117,
+   "total": 124,
    "lugar_antes": 55,
    "lat_antes": 8,
    "lugar_despues": 71,
    "lat_despues": 71,
    "region_despues": 85,
    "de_estado": 8,
-   "de_None": 46,
+   "de_None": 53,
    "de_dato": 55,
    "de_texto": 8
   },
@@ -382,14 +581,14 @@
    "de_coords": 2
   },
   "AO": {
-   "total": 69,
+   "total": 71,
    "lugar_antes": 0,
    "lat_antes": 9,
    "lugar_despues": 30,
    "lat_despues": 35,
    "region_despues": 61,
    "de_coords": 3,
-   "de_None": 39,
+   "de_None": 41,
    "de_texto": 10,
    "de_estado": 17
   },
@@ -403,15 +602,15 @@
    "de_None": 10
   },
   "AR": {
-   "total": 1130,
+   "total": 1285,
    "lugar_antes": 0,
-   "lat_antes": 227,
-   "lugar_despues": 453,
-   "lat_despues": 483,
-   "region_despues": 542,
-   "de_coords": 127,
-   "de_None": 677,
-   "de_texto": 301,
+   "lat_antes": 224,
+   "lugar_despues": 467,
+   "lat_despues": 496,
+   "region_despues": 590,
+   "de_coords": 124,
+   "de_None": 818,
+   "de_texto": 318,
    "de_estado": 25
   },
   "AS": {
@@ -426,24 +625,24 @@
   "AT": {
    "total": 413,
    "lugar_antes": 101,
-   "lat_antes": 112,
+   "lat_antes": 111,
    "lugar_despues": 142,
-   "lat_despues": 148,
-   "region_despues": 181,
+   "lat_despues": 147,
+   "region_despues": 215,
    "de_None": 271,
    "de_dato": 101,
    "de_coords": 29,
    "de_texto": 12
   },
   "AU": {
-   "total": 1841,
+   "total": 1840,
    "lugar_antes": 0,
-   "lat_antes": 238,
-   "lugar_despues": 817,
-   "lat_despues": 838,
-   "region_despues": 925,
-   "de_None": 1024,
-   "de_texto": 657,
+   "lat_antes": 237,
+   "lugar_despues": 814,
+   "lat_despues": 835,
+   "region_despues": 919,
+   "de_None": 1026,
+   "de_texto": 654,
    "de_coords": 148,
    "de_estado": 12
   },
@@ -468,27 +667,27 @@
    "de_dato": 1
   },
   "AZ": {
-   "total": 44,
+   "total": 43,
    "lugar_antes": 0,
-   "lat_antes": 13,
-   "lugar_despues": 17,
-   "lat_despues": 18,
-   "region_despues": 18,
+   "lat_antes": 12,
+   "lugar_despues": 16,
+   "lat_despues": 17,
+   "region_despues": 17,
    "de_None": 27,
-   "de_estado": 14,
+   "de_estado": 13,
    "de_texto": 3
   },
   "BA": {
-   "total": 222,
+   "total": 221,
    "lugar_antes": 70,
-   "lat_antes": 70,
-   "lugar_despues": 127,
-   "lat_despues": 126,
-   "region_despues": 126,
-   "de_texto": 47,
-   "de_coords": 6,
+   "lat_antes": 69,
+   "lugar_despues": 125,
+   "lat_despues": 124,
+   "region_despues": 129,
+   "de_texto": 46,
+   "de_coords": 5,
    "de_dato": 70,
-   "de_None": 95,
+   "de_None": 96,
    "de_estado": 4
   },
   "BB": {
@@ -503,51 +702,51 @@
    "de_None": 5
   },
   "BD": {
-   "total": 30,
+   "total": 32,
    "lugar_antes": 0,
    "lat_antes": 11,
-   "lugar_despues": 11,
-   "lat_despues": 15,
+   "lugar_despues": 8,
+   "lat_despues": 13,
    "region_despues": 15,
-   "de_None": 19,
-   "de_estado": 7,
-   "de_texto": 1,
-   "de_coords": 3
+   "de_None": 24,
+   "de_texto": 3,
+   "de_coords": 4,
+   "de_estado": 1
   },
   "BE": {
-   "total": 597,
+   "total": 598,
    "lugar_antes": 164,
    "lat_antes": 214,
-   "lugar_despues": 261,
-   "lat_despues": 262,
-   "region_despues": 266,
+   "lugar_despues": 258,
+   "lat_despues": 259,
+   "region_despues": 279,
    "de_texto": 35,
    "de_dato": 164,
-   "de_coords": 41,
-   "de_None": 336,
-   "de_estado": 21
+   "de_coords": 51,
+   "de_None": 340,
+   "de_estado": 8
   },
   "BF": {
-   "total": 5,
+   "total": 6,
    "lugar_antes": 0,
    "lat_antes": 1,
    "lugar_despues": 3,
    "lat_despues": 4,
    "region_despues": 3,
    "de_texto": 3,
-   "de_None": 2
+   "de_None": 3
   },
   "BG": {
-   "total": 451,
+   "total": 449,
    "lugar_antes": 115,
    "lat_antes": 88,
-   "lugar_despues": 152,
-   "lat_despues": 169,
-   "region_despues": 172,
+   "lugar_despues": 157,
+   "lat_despues": 173,
+   "region_despues": 178,
    "de_dato": 115,
-   "de_None": 299,
-   "de_coords": 17,
-   "de_texto": 20
+   "de_None": 292,
+   "de_coords": 15,
+   "de_texto": 27
   },
   "BH": {
    "total": 8,
@@ -560,22 +759,22 @@
    "de_coords": 1
   },
   "BI": {
-   "total": 2,
+   "total": 3,
    "lugar_antes": 0,
    "lat_antes": 0,
    "lugar_despues": 0,
    "lat_despues": 0,
    "region_despues": 0,
-   "de_None": 2
+   "de_None": 3
   },
   "BJ": {
-   "total": 4,
+   "total": 5,
    "lugar_antes": 0,
    "lat_antes": 2,
    "lugar_despues": 2,
    "lat_despues": 3,
    "region_despues": 2,
-   "de_None": 2,
+   "de_None": 3,
    "de_texto": 2
   },
   "BM": {
@@ -597,39 +796,39 @@
    "de_None": 4
   },
   "BO": {
-   "total": 78,
+   "total": 120,
    "lugar_antes": 1,
    "lat_antes": 50,
-   "lugar_despues": 58,
-   "lat_despues": 62,
-   "region_despues": 63,
-   "de_None": 20,
-   "de_coords": 19,
-   "de_estado": 28,
-   "de_texto": 10,
+   "lugar_despues": 55,
+   "lat_despues": 63,
+   "region_despues": 67,
+   "de_None": 65,
+   "de_coords": 25,
+   "de_estado": 7,
+   "de_texto": 22,
    "de_dato": 1
   },
   "BQ": {
-   "total": 16,
+   "total": 15,
    "lugar_antes": 3,
-   "lat_antes": 5,
+   "lat_antes": 4,
    "lugar_despues": 4,
-   "lat_despues": 6,
+   "lat_despues": 5,
    "region_despues": 3,
-   "de_None": 12,
+   "de_None": 11,
    "de_dato": 3,
    "de_texto": 1
   },
   "BR": {
-   "total": 1602,
+   "total": 2118,
    "lugar_antes": 0,
-   "lat_antes": 693,
-   "lugar_despues": 876,
-   "lat_despues": 991,
-   "region_despues": 1234,
-   "de_None": 726,
-   "de_texto": 476,
-   "de_coords": 372,
+   "lat_antes": 688,
+   "lugar_despues": 950,
+   "lat_despues": 1064,
+   "region_despues": 1307,
+   "de_None": 1168,
+   "de_texto": 553,
+   "de_coords": 369,
    "de_estado": 28
   },
   "BS": {
@@ -642,15 +841,6 @@
    "de_coords": 2,
    "de_estado": 1,
    "de_None": 5
-  },
-  "BT": {
-   "total": 1,
-   "lugar_antes": 0,
-   "lat_antes": 0,
-   "lugar_despues": 0,
-   "lat_despues": 0,
-   "region_despues": 0,
-   "de_None": 1
   },
   "BW": {
    "total": 4,
@@ -665,33 +855,34 @@
    "total": 136,
    "lugar_antes": 23,
    "lat_antes": 28,
-   "lugar_despues": 42,
-   "lat_despues": 41,
-   "region_despues": 44,
-   "de_None": 94,
-   "de_texto": 6,
+   "lugar_despues": 52,
+   "lat_despues": 52,
+   "region_despues": 55,
+   "de_None": 84,
+   "de_texto": 15,
    "de_dato": 23,
-   "de_coords": 13
+   "de_coords": 13,
+   "de_estado": 1
   },
   "BZ": {
-   "total": 2,
+   "total": 3,
    "lugar_antes": 0,
    "lat_antes": 0,
    "lugar_despues": 0,
    "lat_despues": 0,
    "region_despues": 0,
-   "de_None": 2
+   "de_None": 3
   },
   "CA": {
-   "total": 1407,
+   "total": 1419,
    "lugar_antes": 0,
-   "lat_antes": 669,
-   "lugar_despues": 933,
-   "lat_despues": 992,
-   "region_despues": 1109,
-   "de_None": 474,
-   "de_texto": 712,
-   "de_coords": 188,
+   "lat_antes": 670,
+   "lugar_despues": 938,
+   "lat_despues": 997,
+   "region_despues": 1111,
+   "de_None": 481,
+   "de_texto": 716,
+   "de_coords": 189,
    "de_estado": 33
   },
   "CC": {
@@ -734,17 +925,17 @@
    "de_None": 1
   },
   "CH": {
-   "total": 700,
+   "total": 702,
    "lugar_antes": 139,
-   "lat_antes": 120,
-   "lugar_despues": 210,
-   "lat_despues": 215,
-   "region_despues": 236,
-   "de_None": 490,
+   "lat_antes": 119,
+   "lugar_despues": 208,
+   "lat_despues": 213,
+   "region_despues": 245,
+   "de_None": 494,
    "de_dato": 139,
    "de_coords": 49,
    "de_texto": 10,
-   "de_estado": 12
+   "de_estado": 10
   },
   "CI": {
    "total": 63,
@@ -759,85 +950,84 @@
    "de_None": 11
   },
   "CL": {
-   "total": 541,
+   "total": 612,
    "lugar_antes": 0,
    "lat_antes": 109,
-   "lugar_despues": 228,
-   "lat_despues": 243,
-   "region_despues": 250,
-   "de_None": 313,
-   "de_estado": 95,
-   "de_coords": 62,
-   "de_texto": 71
+   "lugar_despues": 212,
+   "lat_despues": 227,
+   "region_despues": 264,
+   "de_None": 400,
+   "de_estado": 64,
+   "de_coords": 65,
+   "de_texto": 83
   },
   "CM": {
-   "total": 49,
+   "total": 51,
    "lugar_antes": 0,
    "lat_antes": 1,
    "lugar_despues": 42,
    "lat_despues": 43,
    "region_despues": 43,
    "de_estado": 41,
-   "de_None": 7,
+   "de_None": 9,
    "de_texto": 1
   },
   "CN": {
-   "total": 2176,
+   "total": 2175,
    "lugar_antes": 0,
-   "lat_antes": 33,
-   "lugar_despues": 78,
-   "lat_despues": 96,
-   "region_despues": 514,
-   "de_None": 2098,
-   "de_estado": 35,
-   "de_texto": 29,
-   "de_coords": 14
+   "lat_antes": 32,
+   "lugar_despues": 106,
+   "lat_despues": 124,
+   "region_despues": 617,
+   "de_None": 2069,
+   "de_estado": 50,
+   "de_texto": 43,
+   "de_coords": 13
   },
   "CO": {
-   "total": 719,
+   "total": 817,
    "lugar_antes": 1,
-   "lat_antes": 117,
-   "lugar_despues": 454,
-   "lat_despues": 472,
-   "region_despues": 499,
-   "de_texto": 205,
-   "de_None": 265,
-   "de_estado": 206,
+   "lat_antes": 116,
+   "lugar_despues": 468,
+   "lat_despues": 485,
+   "region_despues": 527,
+   "de_texto": 221,
+   "de_None": 349,
+   "de_estado": 203,
    "de_dato": 1,
-   "de_coords": 42
+   "de_coords": 43
   },
   "CR": {
-   "total": 54,
+   "total": 65,
    "lugar_antes": 0,
    "lat_antes": 17,
-   "lugar_despues": 17,
-   "lat_despues": 21,
+   "lugar_despues": 14,
+   "lat_despues": 20,
    "region_despues": 23,
-   "de_None": 37,
-   "de_coords": 9,
-   "de_estado": 5,
-   "de_texto": 3
+   "de_None": 51,
+   "de_coords": 10,
+   "de_texto": 3,
+   "de_estado": 1
   },
   "CU": {
    "total": 24,
    "lugar_antes": 0,
    "lat_antes": 11,
-   "lugar_despues": 12,
-   "lat_despues": 15,
-   "region_despues": 14,
-   "de_None": 12,
+   "lugar_despues": 10,
+   "lat_despues": 13,
+   "region_despues": 20,
+   "de_None": 14,
    "de_texto": 3,
-   "de_coords": 5,
-   "de_estado": 4
+   "de_coords": 7
   },
   "CV": {
-   "total": 19,
+   "total": 20,
    "lugar_antes": 0,
    "lat_antes": 17,
    "lugar_despues": 12,
    "lat_despues": 17,
    "region_despues": 13,
-   "de_None": 7,
+   "de_None": 8,
    "de_coords": 9,
    "de_texto": 3
   },
@@ -853,128 +1043,128 @@
    "de_texto": 3
   },
   "CY": {
-   "total": 89,
+   "total": 83,
    "lugar_antes": 32,
    "lat_antes": 14,
    "lugar_despues": 35,
    "lat_despues": 18,
-   "region_despues": 19,
+   "region_despues": 20,
    "de_dato": 32,
-   "de_None": 54,
+   "de_None": 48,
    "de_coords": 2,
    "de_texto": 1
   },
   "CZ": {
-   "total": 573,
+   "total": 575,
    "lugar_antes": 54,
-   "lat_antes": 60,
-   "lugar_despues": 96,
-   "lat_despues": 98,
-   "region_despues": 98,
-   "de_None": 477,
+   "lat_antes": 59,
+   "lugar_despues": 95,
+   "lat_despues": 97,
+   "region_despues": 102,
+   "de_None": 480,
    "de_dato": 54,
-   "de_coords": 19,
+   "de_coords": 18,
    "de_texto": 21,
    "de_estado": 2
   },
   "DE": {
-   "total": 10487,
+   "total": 10480,
    "lugar_antes": 851,
-   "lat_antes": 1577,
-   "lugar_despues": 2474,
-   "lat_despues": 2593,
-   "region_despues": 3314,
-   "de_None": 8013,
-   "de_coords": 800,
+   "lat_antes": 1570,
+   "lugar_despues": 2310,
+   "lat_despues": 2432,
+   "region_despues": 3588,
+   "de_None": 8170,
+   "de_coords": 808,
    "de_dato": 851,
-   "de_texto": 594,
-   "de_estado": 229
+   "de_texto": 607,
+   "de_estado": 44
   },
   "DK": {
-   "total": 329,
+   "total": 332,
    "lugar_antes": 36,
-   "lat_antes": 84,
-   "lugar_despues": 105,
-   "lat_despues": 117,
-   "region_despues": 111,
-   "de_None": 224,
+   "lat_antes": 83,
+   "lugar_despues": 104,
+   "lat_despues": 116,
+   "region_despues": 113,
+   "de_None": 228,
    "de_dato": 36,
    "de_estado": 38,
-   "de_coords": 15,
+   "de_coords": 14,
    "de_texto": 16
   },
   "DM": {
-   "total": 6,
+   "total": 7,
    "lugar_antes": 0,
    "lat_antes": 1,
    "lugar_despues": 2,
    "lat_despues": 2,
    "region_despues": 2,
    "de_estado": 1,
-   "de_None": 4,
+   "de_None": 5,
    "de_coords": 1
   },
   "DO": {
-   "total": 113,
+   "total": 143,
    "lugar_antes": 1,
-   "lat_antes": 26,
-   "lugar_despues": 50,
-   "lat_despues": 50,
-   "region_despues": 56,
-   "de_None": 63,
-   "de_estado": 33,
-   "de_texto": 1,
-   "de_coords": 15,
+   "lat_antes": 24,
+   "lugar_despues": 31,
+   "lat_despues": 31,
+   "region_despues": 60,
+   "de_None": 112,
+   "de_coords": 20,
+   "de_texto": 3,
+   "de_estado": 7,
    "de_dato": 1
   },
   "DZ": {
-   "total": 135,
+   "total": 136,
    "lugar_antes": 1,
    "lat_antes": 94,
-   "lugar_despues": 91,
+   "lugar_despues": 92,
    "lat_despues": 96,
-   "region_despues": 96,
+   "region_despues": 123,
    "de_None": 44,
-   "de_texto": 74,
-   "de_coords": 16,
+   "de_texto": 80,
+   "de_coords": 11,
    "de_dato": 1
   },
   "EC": {
-   "total": 174,
+   "total": 221,
    "lugar_antes": 2,
-   "lat_antes": 45,
+   "lat_antes": 44,
    "lugar_despues": 60,
    "lat_despues": 67,
-   "region_despues": 92,
-   "de_None": 114,
-   "de_coords": 25,
-   "de_texto": 15,
+   "region_despues": 99,
+   "de_None": 161,
+   "de_texto": 16,
+   "de_coords": 24,
    "de_estado": 18,
    "de_dato": 2
   },
   "EE": {
-   "total": 345,
+   "total": 346,
    "lugar_antes": 73,
    "lat_antes": 66,
-   "lugar_despues": 125,
-   "lat_despues": 132,
+   "lugar_despues": 124,
+   "lat_despues": 131,
    "region_despues": 129,
    "de_coords": 14,
    "de_dato": 73,
-   "de_None": 220,
-   "de_estado": 13,
+   "de_None": 222,
+   "de_estado": 12,
    "de_texto": 25
   },
   "EG": {
-   "total": 58,
+   "total": 68,
    "lugar_antes": 0,
    "lat_antes": 7,
-   "lugar_despues": 9,
-   "lat_despues": 11,
+   "lugar_despues": 10,
+   "lat_despues": 12,
    "region_despues": 32,
-   "de_None": 49,
-   "de_coords": 4,
-   "de_texto": 5
+   "de_None": 58,
+   "de_coords": 2,
+   "de_texto": 8
   },
   "ER": {
    "total": 3,
@@ -986,21 +1176,21 @@
    "de_None": 3
   },
   "ES": {
-   "total": 3255,
+   "total": 3642,
    "lugar_antes": 1720,
    "lugar_despues": 1720,
-   "lat_antes": 434,
-   "lat_despues": 434
+   "lat_antes": 423,
+   "lat_despues": 423
   },
   "ET": {
-   "total": 26,
+   "total": 28,
    "lugar_antes": 0,
    "lat_antes": 13,
-   "lugar_despues": 4,
-   "lat_despues": 15,
-   "region_despues": 16,
-   "de_texto": 1,
-   "de_None": 22,
+   "lugar_despues": 5,
+   "lat_despues": 16,
+   "region_despues": 17,
+   "de_texto": 2,
+   "de_None": 23,
    "de_coords": 2,
    "de_estado": 1
   },
@@ -1010,12 +1200,11 @@
    "lat_antes": 65,
    "lugar_despues": 88,
    "lat_despues": 91,
-   "region_despues": 93,
+   "region_despues": 97,
    "de_coords": 22,
    "de_dato": 40,
    "de_None": 150,
-   "de_texto": 22,
-   "de_estado": 4
+   "de_texto": 26
   },
   "FJ": {
    "total": 5,
@@ -1051,17 +1240,17 @@
    "de_texto": 1
   },
   "FR": {
-   "total": 3503,
+   "total": 3493,
    "lugar_antes": 610,
-   "lat_antes": 773,
-   "lugar_despues": 1184,
-   "lat_despues": 1268,
-   "region_despues": 1377,
+   "lat_antes": 770,
+   "lugar_despues": 1180,
+   "lat_despues": 1264,
+   "region_despues": 1431,
    "de_dato": 610,
-   "de_None": 2319,
-   "de_coords": 191,
-   "de_texto": 339,
-   "de_estado": 44
+   "de_None": 2313,
+   "de_coords": 190,
+   "de_texto": 337,
+   "de_estado": 43
   },
   "GA": {
    "total": 1,
@@ -1073,17 +1262,17 @@
    "de_None": 1
   },
   "GB": {
-   "total": 2717,
-   "lugar_antes": 592,
-   "lat_antes": 719,
-   "lugar_despues": 1107,
-   "lat_despues": 1121,
-   "region_despues": 1075,
-   "de_None": 1610,
-   "de_dato": 592,
-   "de_coords": 185,
-   "de_estado": 109,
-   "de_texto": 221
+   "total": 2740,
+   "lugar_antes": 593,
+   "lat_antes": 710,
+   "lugar_despues": 1097,
+   "lat_despues": 1108,
+   "region_despues": 1065,
+   "de_None": 1643,
+   "de_dato": 593,
+   "de_coords": 178,
+   "de_estado": 104,
+   "de_texto": 222
   },
   "GD": {
    "total": 10,
@@ -1091,19 +1280,19 @@
    "lat_antes": 3,
    "lugar_despues": 3,
    "lat_despues": 4,
-   "region_despues": 3,
+   "region_despues": 4,
    "de_None": 7,
    "de_coords": 2,
    "de_estado": 1
   },
   "GE": {
-   "total": 29,
+   "total": 30,
    "lugar_antes": 0,
    "lat_antes": 14,
    "lugar_despues": 17,
    "lat_despues": 17,
    "region_despues": 24,
-   "de_None": 12,
+   "de_None": 13,
    "de_estado": 1,
    "de_texto": 3,
    "de_coords": 13
@@ -1130,17 +1319,17 @@
    "de_dato": 1
   },
   "GH": {
-   "total": 101,
+   "total": 156,
    "lugar_antes": 1,
    "lat_antes": 26,
-   "lugar_despues": 32,
-   "lat_despues": 33,
-   "region_despues": 32,
+   "lugar_despues": 33,
+   "lat_despues": 34,
+   "region_despues": 33,
    "de_dato": 1,
-   "de_None": 69,
+   "de_None": 123,
    "de_coords": 12,
    "de_estado": 16,
-   "de_texto": 3
+   "de_texto": 4
   },
   "GI": {
    "total": 5,
@@ -1160,6 +1349,15 @@
    "region_despues": 0,
    "de_None": 4
   },
+  "GM": {
+   "total": 1,
+   "lugar_antes": 0,
+   "lat_antes": 0,
+   "lugar_despues": 0,
+   "lat_despues": 0,
+   "region_despues": 0,
+   "de_None": 1
+  },
   "GN": {
    "total": 5,
    "lugar_antes": 0,
@@ -1171,40 +1369,40 @@
    "de_None": 4
   },
   "GP": {
-   "total": 11,
+   "total": 12,
    "lugar_antes": 0,
    "lat_antes": 3,
    "lugar_despues": 1,
    "lat_despues": 3,
    "region_despues": 3,
    "de_coords": 1,
-   "de_None": 10
+   "de_None": 11
   },
   "GR": {
-   "total": 2088,
+   "total": 2095,
    "lugar_antes": 447,
    "lat_antes": 182,
-   "lugar_despues": 1100,
-   "lat_despues": 1101,
-   "region_despues": 1117,
-   "de_None": 988,
-   "de_estado": 575,
+   "lugar_despues": 1202,
+   "lat_despues": 1203,
+   "region_despues": 1220,
+   "de_texto": 67,
+   "de_estado": 658,
    "de_dato": 447,
-   "de_texto": 46,
-   "de_coords": 32
+   "de_None": 893,
+   "de_coords": 30
   },
   "GT": {
-   "total": 71,
+   "total": 99,
    "lugar_antes": 1,
    "lat_antes": 14,
-   "lugar_despues": 15,
-   "lat_despues": 17,
-   "region_despues": 19,
-   "de_None": 56,
+   "lugar_despues": 17,
+   "lat_despues": 19,
+   "region_despues": 21,
+   "de_None": 82,
    "de_coords": 8,
    "de_dato": 1,
    "de_estado": 3,
-   "de_texto": 3
+   "de_texto": 5
   },
   "GU": {
    "total": 4,
@@ -1217,13 +1415,13 @@
    "de_coords": 1
   },
   "GW": {
-   "total": 1,
+   "total": 2,
    "lugar_antes": 0,
    "lat_antes": 0,
    "lugar_despues": 0,
    "lat_despues": 0,
    "region_despues": 0,
-   "de_None": 1
+   "de_None": 2
   },
   "GY": {
    "total": 10,
@@ -1250,141 +1448,143 @@
    "de_estado": 8
   },
   "HN": {
-   "total": 49,
+   "total": 66,
    "lugar_antes": 0,
    "lat_antes": 8,
-   "lugar_despues": 15,
-   "lat_despues": 17,
-   "region_despues": 15,
-   "de_texto": 8,
+   "lugar_despues": 16,
+   "lat_despues": 18,
+   "region_despues": 20,
+   "de_texto": 9,
    "de_estado": 5,
-   "de_None": 34,
+   "de_None": 50,
    "de_coords": 2
   },
   "HR": {
-   "total": 337,
+   "total": 342,
    "lugar_antes": 123,
-   "lat_antes": 130,
-   "lugar_despues": 210,
-   "lat_despues": 196,
-   "region_despues": 196,
-   "de_None": 127,
+   "lat_antes": 129,
+   "lugar_despues": 209,
+   "lat_despues": 195,
+   "region_despues": 201,
+   "de_None": 133,
    "de_dato": 123,
    "de_texto": 47,
-   "de_coords": 33,
+   "de_coords": 32,
    "de_estado": 7
   },
   "HT": {
-   "total": 33,
+   "total": 64,
    "lugar_antes": 0,
    "lat_antes": 5,
-   "lugar_despues": 17,
-   "lat_despues": 20,
-   "region_despues": 18,
-   "de_None": 16,
+   "lugar_despues": 19,
+   "lat_despues": 22,
+   "region_despues": 20,
+   "de_None": 45,
    "de_estado": 16,
-   "de_coords": 1
+   "de_coords": 1,
+   "de_texto": 2
   },
   "HU": {
-   "total": 580,
+   "total": 586,
    "lugar_antes": 89,
    "lat_antes": 73,
-   "lugar_despues": 150,
-   "lat_despues": 158,
+   "lugar_despues": 147,
+   "lat_despues": 155,
    "region_despues": 176,
-   "de_texto": 41,
+   "de_texto": 45,
    "de_dato": 89,
-   "de_None": 430,
-   "de_coords": 9,
-   "de_estado": 11
+   "de_None": 439,
+   "de_coords": 11,
+   "de_estado": 2
   },
   "ID": {
-   "total": 577,
+   "total": 586,
    "lugar_antes": 1,
    "lat_antes": 125,
-   "lugar_despues": 257,
-   "lat_despues": 275,
-   "region_despues": 301,
-   "de_texto": 169,
-   "de_None": 320,
+   "lugar_despues": 258,
+   "lat_despues": 276,
+   "region_despues": 308,
+   "de_texto": 170,
+   "de_None": 328,
    "de_estado": 47,
    "de_coords": 40,
    "de_dato": 1
   },
   "IE": {
-   "total": 427,
+   "total": 425,
    "lugar_antes": 94,
    "lat_antes": 102,
    "lugar_despues": 141,
    "lat_despues": 147,
    "region_despues": 143,
-   "de_None": 286,
+   "de_None": 284,
    "de_estado": 26,
    "de_coords": 12,
    "de_dato": 94,
    "de_texto": 9
   },
   "IL": {
-   "total": 149,
+   "total": 147,
    "lugar_antes": 0,
-   "lat_antes": 15,
-   "lugar_despues": 12,
-   "lat_despues": 17,
+   "lat_antes": 14,
+   "lugar_despues": 13,
+   "lat_despues": 18,
    "region_despues": 29,
-   "de_coords": 8,
-   "de_None": 137,
-   "de_texto": 4
+   "de_coords": 7,
+   "de_None": 134,
+   "de_texto": 6
   },
   "IM": {
-   "total": 8,
+   "total": 9,
    "lugar_antes": 2,
    "lat_antes": 3,
    "lugar_despues": 2,
    "lat_despues": 3,
    "region_despues": 2,
-   "de_None": 6,
+   "de_None": 7,
    "de_dato": 2
   },
   "IN": {
-   "total": 867,
+   "total": 927,
    "lugar_antes": 0,
-   "lat_antes": 113,
-   "lugar_despues": 201,
-   "lat_despues": 229,
-   "region_despues": 288,
-   "de_None": 666,
-   "de_texto": 126,
+   "lat_antes": 110,
+   "lugar_despues": 215,
+   "lat_despues": 242,
+   "region_despues": 307,
+   "de_None": 712,
+   "de_texto": 142,
    "de_estado": 29,
-   "de_coords": 46
+   "de_coords": 44
   },
   "IO": {
-   "total": 7,
+   "total": 6,
    "lugar_antes": 0,
-   "lat_antes": 1,
+   "lat_antes": 0,
    "lugar_despues": 0,
-   "lat_despues": 1,
+   "lat_despues": 0,
    "region_despues": 0,
-   "de_None": 7
+   "de_None": 6
   },
   "IQ": {
    "total": 22,
    "lugar_antes": 0,
    "lat_antes": 6,
-   "lugar_despues": 7,
-   "lat_despues": 8,
-   "region_despues": 8,
-   "de_coords": 4,
-   "de_texto": 3,
-   "de_None": 15
+   "lugar_despues": 8,
+   "lat_despues": 9,
+   "region_despues": 9,
+   "de_estado": 1,
+   "de_texto": 4,
+   "de_coords": 3,
+   "de_None": 14
   },
   "IR": {
-   "total": 28,
+   "total": 30,
    "lugar_antes": 0,
    "lat_antes": 5,
    "lugar_despues": 2,
    "lat_despues": 6,
    "region_despues": 10,
-   "de_None": 26,
+   "de_None": 28,
    "de_coords": 1,
    "de_texto": 1
   },
@@ -1401,14 +1601,14 @@
    "de_texto": 2
   },
   "IT": {
-   "total": 1931,
+   "total": 1965,
    "lugar_antes": 199,
-   "lat_antes": 311,
-   "lugar_despues": 592,
-   "lat_despues": 607,
-   "region_despues": 822,
-   "de_None": 1339,
-   "de_coords": 104,
+   "lat_antes": 306,
+   "lugar_despues": 586,
+   "lat_despues": 602,
+   "region_despues": 1049,
+   "de_None": 1379,
+   "de_coords": 98,
    "de_texto": 268,
    "de_estado": 21,
    "de_dato": 199
@@ -1424,59 +1624,58 @@
    "de_coords": 1
   },
   "JM": {
-   "total": 46,
+   "total": 49,
    "lugar_antes": 0,
    "lat_antes": 17,
    "lugar_despues": 16,
    "lat_despues": 18,
    "region_despues": 22,
-   "de_None": 30,
+   "de_None": 33,
    "de_estado": 1,
    "de_coords": 15
   },
   "JO": {
-   "total": 33,
+   "total": 31,
    "lugar_antes": 0,
    "lat_antes": 5,
-   "lugar_despues": 5,
-   "lat_despues": 5,
-   "region_despues": 21,
+   "lugar_despues": 6,
+   "lat_despues": 6,
+   "region_despues": 20,
    "de_coords": 5,
-   "de_None": 28
+   "de_None": 25,
+   "de_texto": 1
   },
   "JP": {
-   "total": 190,
+   "total": 193,
    "lugar_antes": 0,
    "lat_antes": 9,
-   "lugar_despues": 25,
-   "lat_despues": 27,
-   "region_despues": 68,
-   "de_texto": 15,
-   "de_None": 165,
+   "lugar_despues": 33,
+   "lat_despues": 35,
+   "region_despues": 125,
+   "de_texto": 21,
+   "de_None": 160,
    "de_coords": 6,
-   "de_estado": 4
+   "de_estado": 6
   },
   "KE": {
-   "total": 50,
+   "total": 76,
    "lugar_antes": 0,
-   "lat_antes": 7,
-   "lugar_despues": 12,
-   "lat_despues": 13,
+   "lat_antes": 6,
+   "lugar_despues": 10,
+   "lat_despues": 11,
    "region_despues": 12,
-   "de_estado": 7,
-   "de_None": 38,
-   "de_coords": 2,
-   "de_texto": 3
+   "de_None": 66,
+   "de_coords": 4,
+   "de_texto": 6
   },
   "KG": {
    "total": 6,
    "lugar_antes": 0,
-   "lat_antes": 2,
-   "lugar_despues": 2,
-   "lat_despues": 2,
-   "region_despues": 2,
-   "de_coords": 2,
-   "de_None": 4
+   "lat_antes": 0,
+   "lugar_despues": 0,
+   "lat_despues": 0,
+   "region_despues": 0,
+   "de_None": 6
   },
   "KH": {
    "total": 11,
@@ -1528,35 +1727,36 @@
    "de_texto": 2
   },
   "KR": {
-   "total": 87,
+   "total": 88,
    "lugar_antes": 0,
    "lat_antes": 29,
-   "lugar_despues": 18,
-   "lat_despues": 30,
-   "region_despues": 52,
-   "de_None": 69,
-   "de_texto": 3,
-   "de_coords": 14,
-   "de_estado": 1
+   "lugar_despues": 17,
+   "lat_despues": 29,
+   "region_despues": 51,
+   "de_None": 71,
+   "de_texto": 2,
+   "de_coords": 12,
+   "de_estado": 3
   },
   "KW": {
-   "total": 12,
+   "total": 13,
    "lugar_antes": 0,
    "lat_antes": 9,
-   "lugar_despues": 10,
-   "lat_despues": 10,
-   "region_despues": 10,
+   "lugar_despues": 11,
+   "lat_despues": 11,
+   "region_despues": 11,
    "de_estado": 10,
-   "de_None": 2
+   "de_None": 2,
+   "de_texto": 1
   },
   "KY": {
-   "total": 7,
+   "total": 8,
    "lugar_antes": 0,
    "lat_antes": 2,
    "lugar_despues": 2,
    "lat_despues": 2,
    "region_despues": 2,
-   "de_None": 5,
+   "de_None": 6,
    "de_coords": 2
   },
   "KZ": {
@@ -1566,30 +1766,30 @@
    "lugar_despues": 16,
    "lat_despues": 18,
    "region_despues": 22,
-   "de_coords": 11,
-   "de_texto": 4,
+   "de_coords": 10,
+   "de_texto": 5,
    "de_estado": 1,
    "de_None": 21
   },
   "LA": {
-   "total": 3,
+   "total": 2,
    "lugar_antes": 0,
    "lat_antes": 0,
    "lugar_despues": 0,
    "lat_despues": 0,
    "region_despues": 0,
-   "de_None": 3
+   "de_None": 2
   },
   "LB": {
    "total": 119,
    "lugar_antes": 0,
    "lat_antes": 9,
-   "lugar_despues": 29,
-   "lat_despues": 29,
+   "lugar_despues": 30,
+   "lat_despues": 30,
    "region_despues": 49,
-   "de_None": 90,
+   "de_None": 89,
+   "de_texto": 8,
    "de_estado": 13,
-   "de_texto": 7,
    "de_coords": 9
   },
   "LC": {
@@ -1614,14 +1814,14 @@
    "de_None": 1
   },
   "LK": {
-   "total": 77,
+   "total": 86,
    "lugar_antes": 0,
-   "lat_antes": 21,
-   "lugar_despues": 20,
-   "lat_despues": 26,
-   "region_despues": 21,
-   "de_estado": 10,
-   "de_None": 57,
+   "lat_antes": 20,
+   "lugar_despues": 19,
+   "lat_despues": 25,
+   "region_despues": 20,
+   "de_estado": 9,
+   "de_None": 67,
    "de_coords": 8,
    "de_texto": 2
   },
@@ -1635,66 +1835,64 @@
    "de_None": 1
   },
   "LT": {
-   "total": 168,
+   "total": 169,
    "lugar_antes": 44,
    "lat_antes": 23,
-   "lugar_despues": 54,
-   "lat_despues": 57,
+   "lugar_despues": 53,
+   "lat_despues": 56,
    "region_despues": 70,
-   "de_None": 114,
+   "de_None": 116,
    "de_dato": 44,
    "de_coords": 6,
-   "de_texto": 3,
-   "de_estado": 1
+   "de_texto": 3
   },
   "LU": {
-   "total": 46,
+   "total": 45,
    "lugar_antes": 13,
    "lat_antes": 13,
-   "lugar_despues": 20,
-   "lat_despues": 18,
-   "region_despues": 18,
+   "lugar_despues": 19,
+   "lat_despues": 17,
+   "region_despues": 17,
    "de_coords": 5,
    "de_None": 26,
    "de_dato": 13,
-   "de_texto": 2
+   "de_texto": 1
   },
   "LV": {
-   "total": 339,
+   "total": 342,
    "lugar_antes": 88,
    "lat_antes": 43,
    "lugar_despues": 101,
    "lat_despues": 102,
    "region_despues": 112,
    "de_dato": 88,
-   "de_None": 238,
+   "de_None": 241,
    "de_estado": 6,
    "de_coords": 4,
    "de_texto": 3
   },
   "LY": {
-   "total": 7,
+   "total": 8,
    "lugar_antes": 0,
    "lat_antes": 4,
    "lugar_despues": 6,
    "lat_despues": 6,
    "region_despues": 6,
-   "de_estado": 1,
-   "de_texto": 4,
-   "de_None": 1,
+   "de_texto": 5,
+   "de_None": 2,
    "de_coords": 1
   },
   "MA": {
-   "total": 62,
+   "total": 65,
    "lugar_antes": 0,
-   "lat_antes": 15,
-   "lugar_despues": 13,
+   "lat_antes": 14,
+   "lugar_despues": 14,
    "lat_despues": 20,
    "region_despues": 19,
-   "de_coords": 7,
-   "de_None": 49,
-   "de_estado": 4,
-   "de_texto": 2
+   "de_coords": 6,
+   "de_None": 51,
+   "de_texto": 3,
+   "de_estado": 5
   },
   "MC": {
    "total": 9,
@@ -1708,28 +1906,28 @@
    "de_None": 2
   },
   "MD": {
-   "total": 174,
+   "total": 172,
    "lugar_antes": 26,
    "lat_antes": 20,
    "lugar_despues": 30,
    "lat_despues": 31,
    "region_despues": 30,
    "de_dato": 26,
-   "de_None": 144,
+   "de_None": 142,
    "de_texto": 2,
    "de_coords": 1,
    "de_estado": 1
   },
   "ME": {
-   "total": 56,
+   "total": 57,
    "lugar_antes": 7,
    "lat_antes": 5,
-   "lugar_despues": 11,
-   "lat_despues": 11,
-   "region_despues": 12,
+   "lugar_despues": 12,
+   "lat_despues": 12,
+   "region_despues": 13,
    "de_dato": 7,
    "de_None": 45,
-   "de_texto": 3,
+   "de_texto": 4,
    "de_coords": 1
   },
   "MF": {
@@ -1742,15 +1940,15 @@
    "de_None": 1
   },
   "MG": {
-   "total": 21,
+   "total": 19,
    "lugar_antes": 0,
-   "lat_antes": 10,
+   "lat_antes": 5,
    "lugar_despues": 8,
-   "lat_despues": 11,
-   "region_despues": 11,
+   "lat_despues": 8,
+   "region_despues": 8,
    "de_estado": 4,
    "de_coords": 2,
-   "de_None": 13,
+   "de_None": 11,
    "de_texto": 2
   },
   "MH": {
@@ -1764,37 +1962,36 @@
    "de_None": 1
   },
   "MK": {
-   "total": 70,
+   "total": 71,
    "lugar_antes": 23,
    "lat_antes": 18,
-   "lugar_despues": 34,
-   "lat_despues": 34,
-   "region_despues": 34,
+   "lugar_despues": 35,
+   "lat_despues": 35,
+   "region_despues": 35,
    "de_None": 36,
    "de_dato": 23,
-   "de_estado": 1,
-   "de_texto": 9,
+   "de_texto": 11,
    "de_coords": 1
   },
   "ML": {
-   "total": 14,
+   "total": 18,
    "lugar_antes": 0,
    "lat_antes": 1,
    "lugar_despues": 10,
    "lat_despues": 10,
    "region_despues": 10,
    "de_texto": 10,
-   "de_None": 4
+   "de_None": 8
   },
   "MM": {
-   "total": 4,
+   "total": 5,
    "lugar_antes": 0,
    "lat_antes": 1,
    "lugar_despues": 1,
    "lat_despues": 1,
    "region_despues": 1,
    "de_coords": 1,
-   "de_None": 3
+   "de_None": 4
   },
   "MN": {
    "total": 7,
@@ -1884,51 +2081,51 @@
    "de_estado": 51
   },
   "MX": {
-   "total": 1619,
+   "total": 1741,
    "lugar_antes": 8,
-   "lat_antes": 1209,
-   "lugar_despues": 1428,
-   "lat_despues": 1440,
-   "region_despues": 1481,
-   "de_texto": 982,
-   "de_None": 191,
-   "de_coords": 433,
+   "lat_antes": 1208,
+   "lugar_despues": 1445,
+   "lat_despues": 1457,
+   "region_despues": 1509,
+   "de_texto": 1005,
+   "de_None": 296,
+   "de_coords": 427,
    "de_dato": 8,
    "de_estado": 5
   },
   "MY": {
-   "total": 89,
+   "total": 94,
    "lugar_antes": 1,
    "lat_antes": 16,
    "lugar_despues": 18,
    "lat_despues": 18,
-   "region_despues": 29,
+   "region_despues": 28,
    "de_coords": 14,
-   "de_None": 71,
+   "de_None": 76,
    "de_dato": 1,
    "de_texto": 2,
    "de_estado": 1
   },
   "MZ": {
-   "total": 14,
+   "total": 16,
    "lugar_antes": 0,
    "lat_antes": 3,
-   "lugar_despues": 11,
-   "lat_despues": 11,
+   "lugar_despues": 6,
+   "lat_despues": 6,
    "region_despues": 11,
-   "de_None": 3,
+   "de_None": 10,
    "de_coords": 1,
    "de_texto": 3,
-   "de_estado": 7
+   "de_estado": 2
   },
   "NA": {
-   "total": 12,
+   "total": 17,
    "lugar_antes": 0,
    "lat_antes": 9,
    "lugar_despues": 8,
    "lat_despues": 9,
    "region_despues": 8,
-   "de_None": 4,
+   "de_None": 9,
    "de_coords": 8
   },
   "NC": {
@@ -1943,74 +2140,74 @@
    "de_coords": 1
   },
   "NE": {
-   "total": 3,
+   "total": 5,
    "lugar_antes": 0,
    "lat_antes": 1,
    "lugar_despues": 2,
    "lat_despues": 3,
    "region_despues": 2,
-   "de_None": 1,
+   "de_None": 3,
    "de_texto": 2
   },
   "NG": {
-   "total": 95,
+   "total": 119,
    "lugar_antes": 0,
-   "lat_antes": 32,
-   "lugar_despues": 36,
+   "lat_antes": 31,
+   "lugar_despues": 37,
    "lat_despues": 45,
-   "region_despues": 51,
-   "de_None": 59,
-   "de_coords": 18,
-   "de_texto": 6,
-   "de_estado": 12
+   "region_despues": 60,
+   "de_None": 82,
+   "de_coords": 19,
+   "de_texto": 13,
+   "de_estado": 5
   },
   "NI": {
-   "total": 25,
+   "total": 32,
    "lugar_antes": 0,
    "lat_antes": 7,
-   "lugar_despues": 9,
-   "lat_despues": 11,
-   "region_despues": 10,
-   "de_None": 16,
-   "de_estado": 6,
-   "de_texto": 2,
-   "de_coords": 1
+   "lugar_despues": 8,
+   "lat_despues": 10,
+   "region_despues": 14,
+   "de_None": 24,
+   "de_estado": 2,
+   "de_texto": 3,
+   "de_coords": 3
   },
   "NL": {
-   "total": 1501,
+   "total": 1507,
    "lugar_antes": 244,
-   "lat_antes": 453,
-   "lugar_despues": 537,
-   "lat_despues": 552,
-   "region_despues": 569,
+   "lat_antes": 449,
+   "lugar_despues": 533,
+   "lat_despues": 548,
+   "region_despues": 616,
    "de_dato": 244,
-   "de_None": 964,
-   "de_coords": 192,
-   "de_texto": 81,
-   "de_estado": 20
+   "de_None": 974,
+   "de_coords": 189,
+   "de_texto": 82,
+   "de_estado": 18
   },
   "NO": {
-   "total": 233,
+   "total": 231,
    "lugar_antes": 40,
    "lat_antes": 65,
    "lugar_despues": 86,
    "lat_despues": 92,
-   "region_despues": 96,
+   "region_despues": 95,
    "de_coords": 19,
-   "de_None": 147,
+   "de_None": 145,
    "de_texto": 26,
    "de_dato": 40,
    "de_estado": 1
   },
   "NP": {
-   "total": 154,
+   "total": 158,
    "lugar_antes": 0,
    "lat_antes": 5,
-   "lugar_despues": 11,
-   "lat_despues": 11,
-   "region_despues": 11,
-   "de_None": 143,
-   "de_texto": 7,
+   "lugar_despues": 12,
+   "lat_despues": 12,
+   "region_despues": 12,
+   "de_None": 146,
+   "de_texto": 8,
    "de_coords": 2,
    "de_estado": 2
   },
@@ -2024,15 +2221,15 @@
    "de_None": 1
   },
   "NZ": {
-   "total": 230,
+   "total": 221,
    "lugar_antes": 0,
-   "lat_antes": 52,
-   "lugar_despues": 96,
-   "lat_despues": 103,
-   "region_despues": 148,
-   "de_texto": 34,
-   "de_None": 134,
-   "de_estado": 29,
+   "lat_antes": 51,
+   "lugar_despues": 93,
+   "lat_despues": 99,
+   "region_despues": 149,
+   "de_texto": 36,
+   "de_None": 128,
+   "de_estado": 24,
    "de_coords": 33
   },
   "OM": {
@@ -2047,27 +2244,27 @@
    "de_coords": 2
   },
   "PA": {
-   "total": 34,
+   "total": 43,
    "lugar_antes": 0,
    "lat_antes": 6,
    "lugar_despues": 3,
    "lat_despues": 6,
-   "region_despues": 6,
-   "de_None": 31,
+   "region_despues": 7,
+   "de_None": 40,
    "de_coords": 2,
    "de_texto": 1
   },
   "PE": {
-   "total": 308,
+   "total": 370,
    "lugar_antes": 0,
    "lat_antes": 81,
-   "lugar_despues": 204,
-   "lat_despues": 212,
-   "region_despues": 235,
-   "de_None": 104,
-   "de_estado": 131,
-   "de_coords": 34,
-   "de_texto": 39
+   "lugar_despues": 127,
+   "lat_despues": 142,
+   "region_despues": 248,
+   "de_None": 243,
+   "de_coords": 47,
+   "de_texto": 72,
+   "de_estado": 8
   },
   "PF": {
    "total": 8,
@@ -2081,50 +2278,50 @@
    "de_dato": 1
   },
   "PG": {
-   "total": 7,
+   "total": 5,
    "lugar_antes": 0,
-   "lat_antes": 3,
+   "lat_antes": 2,
    "lugar_despues": 2,
-   "lat_despues": 3,
-   "region_despues": 3,
-   "de_None": 5,
+   "lat_despues": 2,
+   "region_despues": 2,
+   "de_None": 3,
    "de_coords": 2
   },
   "PH": {
    "total": 814,
    "lugar_antes": 0,
-   "lat_antes": 22,
-   "lugar_despues": 482,
-   "lat_despues": 483,
-   "region_despues": 482,
-   "de_None": 332,
-   "de_texto": 430,
-   "de_coords": 18,
+   "lat_antes": 23,
+   "lugar_despues": 473,
+   "lat_despues": 474,
+   "region_despues": 475,
+   "de_None": 341,
+   "de_texto": 420,
+   "de_coords": 19,
    "de_estado": 34
   },
   "PK": {
-   "total": 62,
+   "total": 64,
    "lugar_antes": 0,
    "lat_antes": 16,
-   "lugar_despues": 37,
-   "lat_despues": 42,
-   "region_despues": 44,
+   "lugar_despues": 39,
+   "lat_despues": 44,
+   "region_despues": 46,
    "de_None": 25,
    "de_coords": 4,
-   "de_texto": 33
+   "de_texto": 35
   },
   "PL": {
-   "total": 1178,
+   "total": 1179,
    "lugar_antes": 277,
-   "lat_antes": 294,
-   "lugar_despues": 574,
-   "lat_despues": 591,
-   "region_despues": 584,
+   "lat_antes": 293,
+   "lugar_despues": 571,
+   "lat_despues": 588,
+   "region_despues": 591,
    "de_dato": 277,
-   "de_None": 604,
+   "de_None": 608,
    "de_texto": 115,
    "de_coords": 79,
-   "de_estado": 103
+   "de_estado": 100
   },
   "PM": {
    "total": 1,
@@ -2136,13 +2333,13 @@
    "de_coords": 1
   },
   "PR": {
-   "total": 56,
+   "total": 59,
    "lugar_antes": 0,
    "lat_antes": 17,
    "lugar_despues": 18,
    "lat_despues": 21,
    "region_despues": 22,
-   "de_None": 38,
+   "de_None": 41,
    "de_coords": 14,
    "de_texto": 4
   },
@@ -2159,15 +2356,15 @@
    "de_estado": 1
   },
   "PT": {
-   "total": 455,
+   "total": 483,
    "lugar_antes": 173,
    "lat_antes": 157,
-   "lugar_despues": 245,
-   "lat_despues": 252,
-   "region_despues": 285,
+   "lugar_despues": 247,
+   "lat_despues": 254,
+   "region_despues": 297,
    "de_dato": 173,
-   "de_None": 210,
-   "de_texto": 56,
+   "de_None": 236,
+   "de_texto": 58,
    "de_coords": 11,
    "de_estado": 5
   },
@@ -2181,24 +2378,24 @@
    "de_None": 1
   },
   "PY": {
-   "total": 72,
+   "total": 78,
    "lugar_antes": 0,
-   "lat_antes": 11,
-   "lugar_despues": 12,
-   "lat_despues": 15,
+   "lat_antes": 10,
+   "lugar_despues": 11,
+   "lat_despues": 14,
    "region_despues": 20,
-   "de_None": 60,
-   "de_coords": 8,
+   "de_None": 67,
+   "de_coords": 7,
    "de_texto": 4
   },
   "QA": {
-   "total": 17,
+   "total": 16,
    "lugar_antes": 0,
-   "lat_antes": 6,
-   "lugar_despues": 6,
-   "lat_despues": 6,
-   "region_despues": 6,
-   "de_coords": 6,
+   "lat_antes": 5,
+   "lugar_despues": 5,
+   "lat_despues": 5,
+   "region_despues": 5,
+   "de_coords": 5,
    "de_None": 11
   },
   "RE": {
@@ -2214,63 +2411,64 @@
    "de_dato": 1
   },
   "RO": {
-   "total": 1446,
+   "total": 1453,
    "lugar_antes": 198,
-   "lat_antes": 539,
-   "lugar_despues": 624,
-   "lat_despues": 669,
-   "region_despues": 638,
-   "de_None": 822,
+   "lat_antes": 538,
+   "lugar_despues": 609,
+   "lat_despues": 654,
+   "region_despues": 649,
+   "de_None": 844,
    "de_dato": 198,
-   "de_estado": 35,
-   "de_texto": 238,
-   "de_coords": 153
+   "de_estado": 12,
+   "de_texto": 240,
+   "de_coords": 159
   },
   "RS": {
-   "total": 455,
+   "total": 456,
    "lugar_antes": 64,
-   "lat_antes": 66,
-   "lugar_despues": 115,
-   "lat_despues": 120,
-   "region_despues": 124,
-   "de_None": 340,
+   "lat_antes": 65,
+   "lugar_despues": 121,
+   "lat_despues": 126,
+   "region_despues": 130,
+   "de_None": 335,
    "de_dato": 64,
-   "de_texto": 30,
-   "de_estado": 9,
-   "de_coords": 12
+   "de_texto": 36,
+   "de_estado": 11,
+   "de_coords": 10
   },
   "RU": {
-   "total": 3486,
+   "total": 3402,
    "lugar_antes": 306,
-   "lat_antes": 250,
-   "lugar_despues": 770,
-   "lat_despues": 805,
-   "region_despues": 870,
+   "lat_antes": 245,
+   "lugar_despues": 1051,
+   "lat_despues": 1085,
+   "region_despues": 1276,
    "de_dato": 306,
-   "de_None": 2716,
-   "de_estado": 102,
-   "de_coords": 77,
-   "de_texto": 285
+   "de_None": 2351,
+   "de_coords": 71,
+   "de_estado": 99,
+   "de_texto": 575
   },
   "RW": {
-   "total": 9,
+   "total": 10,
    "lugar_antes": 0,
    "lat_antes": 0,
    "lugar_despues": 0,
    "lat_despues": 0,
    "region_despues": 3,
-   "de_None": 9
+   "de_None": 10
   },
   "SA": {
-   "total": 76,
+   "total": 74,
    "lugar_antes": 0,
-   "lat_antes": 16,
-   "lugar_despues": 31,
-   "lat_despues": 34,
-   "region_despues": 35,
-   "de_estado": 26,
-   "de_None": 45,
-   "de_texto": 5
+   "lat_antes": 14,
+   "lugar_despues": 33,
+   "lat_despues": 43,
+   "region_despues": 50,
+   "de_coords": 3,
+   "de_None": 41,
+   "de_estado": 23,
+   "de_texto": 7
   },
   "SC": {
    "total": 2,
@@ -2292,26 +2490,26 @@
    "de_None": 5
   },
   "SE": {
-   "total": 332,
+   "total": 333,
    "lugar_antes": 101,
    "lat_antes": 151,
    "lugar_despues": 179,
    "lat_despues": 191,
    "region_despues": 190,
-   "de_None": 153,
+   "de_None": 154,
    "de_dato": 101,
    "de_texto": 33,
    "de_coords": 44,
    "de_estado": 1
   },
   "SG": {
-   "total": 62,
+   "total": 63,
    "lugar_antes": 0,
    "lat_antes": 19,
    "lugar_despues": 35,
    "lat_despues": 35,
    "region_despues": 4,
-   "de_None": 27,
+   "de_None": 28,
    "de_estado": 15,
    "de_coords": 16,
    "de_texto": 4
@@ -2326,13 +2524,13 @@
    "de_None": 2
   },
   "SI": {
-   "total": 159,
+   "total": 161,
    "lugar_antes": 39,
    "lat_antes": 47,
    "lugar_despues": 55,
    "lat_despues": 56,
    "region_despues": 56,
-   "de_None": 104,
+   "de_None": 106,
    "de_dato": 39,
    "de_coords": 11,
    "de_texto": 5
@@ -2341,23 +2539,22 @@
    "total": 180,
    "lugar_antes": 27,
    "lat_antes": 37,
-   "lugar_despues": 55,
-   "lat_despues": 56,
+   "lugar_despues": 52,
+   "lat_despues": 53,
    "region_despues": 56,
    "de_dato": 27,
-   "de_None": 125,
+   "de_None": 128,
    "de_texto": 15,
-   "de_estado": 6,
-   "de_coords": 7
+   "de_coords": 10
   },
   "SL": {
-   "total": 2,
+   "total": 3,
    "lugar_antes": 0,
    "lat_antes": 0,
    "lugar_despues": 0,
    "lat_despues": 0,
    "region_despues": 0,
-   "de_None": 2
+   "de_None": 3
   },
   "SM": {
    "total": 4,
@@ -2370,14 +2567,14 @@
    "de_texto": 1
   },
   "SN": {
-   "total": 34,
+   "total": 38,
    "lugar_antes": 0,
-   "lat_antes": 2,
-   "lugar_despues": 22,
-   "lat_despues": 23,
-   "region_despues": 23,
-   "de_texto": 21,
-   "de_None": 12,
+   "lat_antes": 1,
+   "lugar_despues": 25,
+   "lat_despues": 25,
+   "region_despues": 25,
+   "de_texto": 24,
+   "de_None": 13,
    "de_coords": 1
   },
   "SO": {
@@ -2391,14 +2588,14 @@
    "de_texto": 1
   },
   "SR": {
-   "total": 10,
+   "total": 11,
    "lugar_antes": 0,
    "lat_antes": 3,
-   "lugar_despues": 2,
+   "lugar_despues": 1,
    "lat_despues": 3,
    "region_despues": 2,
-   "de_None": 8,
-   "de_estado": 2
+   "de_None": 10,
+   "de_coords": 1
   },
   "SS": {
    "total": 2,
@@ -2411,15 +2608,15 @@
    "de_None": 1
   },
   "SV": {
-   "total": 62,
+   "total": 76,
    "lugar_antes": 1,
-   "lat_antes": 20,
-   "lugar_despues": 34,
-   "lat_despues": 34,
-   "region_despues": 34,
-   "de_estado": 24,
-   "de_None": 28,
-   "de_coords": 8,
+   "lat_antes": 19,
+   "lugar_despues": 19,
+   "lat_despues": 19,
+   "region_despues": 33,
+   "de_None": 57,
+   "de_coords": 16,
+   "de_estado": 1,
    "de_texto": 1,
    "de_dato": 1
   },
@@ -2473,16 +2670,16 @@
    "de_texto": 1
   },
   "TH": {
-   "total": 116,
+   "total": 118,
    "lugar_antes": 0,
-   "lat_antes": 19,
-   "lugar_despues": 23,
-   "lat_despues": 26,
-   "region_despues": 72,
-   "de_None": 93,
-   "de_coords": 15,
-   "de_texto": 5,
-   "de_estado": 3
+   "lat_antes": 18,
+   "lugar_despues": 27,
+   "lat_despues": 30,
+   "region_despues": 77,
+   "de_texto": 12,
+   "de_None": 91,
+   "de_coords": 13,
+   "de_estado": 2
   },
   "TM": {
    "total": 4,
@@ -2494,94 +2691,94 @@
    "de_None": 4
   },
   "TN": {
-   "total": 51,
+   "total": 52,
    "lugar_antes": 0,
    "lat_antes": 13,
-   "lugar_despues": 15,
-   "lat_despues": 16,
+   "lugar_despues": 11,
+   "lat_despues": 14,
    "region_despues": 16,
-   "de_None": 36,
+   "de_None": 41,
    "de_coords": 6,
-   "de_estado": 6,
-   "de_texto": 3
+   "de_texto": 5
   },
   "TO": {
-   "total": 3,
+   "total": 4,
    "lugar_antes": 0,
    "lat_antes": 3,
    "lugar_despues": 3,
    "lat_despues": 3,
    "region_despues": 3,
-   "de_estado": 3
+   "de_estado": 3,
+   "de_None": 1
   },
   "TR": {
-   "total": 704,
+   "total": 705,
    "lugar_antes": 1,
-   "lat_antes": 154,
-   "lugar_despues": 191,
-   "lat_despues": 209,
-   "region_despues": 252,
-   "de_None": 513,
-   "de_coords": 86,
-   "de_texto": 77,
-   "de_estado": 27,
+   "lat_antes": 153,
+   "lugar_despues": 185,
+   "lat_despues": 203,
+   "region_despues": 256,
+   "de_None": 520,
+   "de_coords": 87,
+   "de_texto": 80,
+   "de_estado": 17,
    "de_dato": 1
   },
   "TT": {
-   "total": 22,
+   "total": 27,
    "lugar_antes": 0,
    "lat_antes": 5,
    "lugar_despues": 7,
    "lat_despues": 8,
    "region_despues": 9,
-   "de_None": 15,
+   "de_None": 20,
    "de_texto": 3,
    "de_coords": 3,
    "de_estado": 1
   },
   "TW": {
-   "total": 194,
+   "total": 196,
    "lugar_antes": 0,
    "lat_antes": 15,
-   "lugar_despues": 15,
-   "lat_despues": 19,
-   "region_despues": 27,
-   "de_None": 179,
-   "de_estado": 10,
+   "lugar_despues": 16,
+   "lat_despues": 20,
+   "region_despues": 28,
+   "de_None": 180,
+   "de_estado": 11,
    "de_coords": 5
   },
   "TZ": {
-   "total": 20,
+   "total": 19,
    "lugar_antes": 0,
-   "lat_antes": 5,
-   "lugar_despues": 6,
-   "lat_despues": 8,
-   "region_despues": 8,
-   "de_None": 14,
-   "de_estado": 5,
+   "lat_antes": 4,
+   "lugar_despues": 2,
+   "lat_despues": 4,
+   "region_despues": 7,
+   "de_None": 17,
+   "de_estado": 1,
    "de_coords": 1
   },
   "UA": {
-   "total": 457,
+   "total": 460,
    "lugar_antes": 59,
    "lat_antes": 65,
-   "lugar_despues": 124,
-   "lat_despues": 129,
-   "region_despues": 127,
-   "de_None": 333,
-   "de_estado": 14,
+   "lugar_despues": 141,
+   "lat_despues": 146,
+   "region_despues": 163,
+   "de_None": 319,
    "de_dato": 59,
-   "de_texto": 30,
-   "de_coords": 21
+   "de_texto": 56,
+   "de_coords": 22,
+   "de_estado": 4
   },
   "UG": {
-   "total": 138,
+   "total": 141,
    "lugar_antes": 0,
    "lat_antes": 7,
    "lugar_despues": 38,
    "lat_despues": 42,
    "region_despues": 41,
-   "de_None": 100,
+   "de_None": 103,
    "de_texto": 8,
    "de_estado": 29,
    "de_coords": 1
@@ -2605,29 +2802,29 @@
    "de_None": 1
   },
   "US": {
-   "total": 7653,
-   "lugar_antes": 12,
-   "lat_antes": 2035,
-   "lugar_despues": 3266,
-   "lat_despues": 3529,
-   "region_despues": 4611,
-   "de_coords": 1327,
-   "de_texto": 1888,
-   "de_None": 4387,
-   "de_dato": 12,
-   "de_estado": 39
+   "total": 7785,
+   "lugar_antes": 11,
+   "lat_antes": 1957,
+   "lugar_despues": 3216,
+   "lat_despues": 3471,
+   "region_despues": 4538,
+   "de_coords": 1308,
+   "de_texto": 1859,
+   "de_None": 4569,
+   "de_dato": 11,
+   "de_estado": 38
   },
   "UY": {
-   "total": 153,
+   "total": 166,
    "lugar_antes": 0,
    "lat_antes": 36,
-   "lugar_despues": 69,
-   "lat_despues": 71,
-   "region_despues": 73,
-   "de_None": 84,
-   "de_estado": 40,
-   "de_texto": 14,
-   "de_coords": 15
+   "lugar_despues": 50,
+   "lat_despues": 54,
+   "region_despues": 75,
+   "de_None": 116,
+   "de_coords": 26,
+   "de_texto": 21,
+   "de_estado": 3
   },
   "UZ": {
    "total": 11,
@@ -2649,26 +2846,26 @@
    "de_dato": 3
   },
   "VC": {
-   "total": 13,
+   "total": 14,
    "lugar_antes": 0,
    "lat_antes": 1,
    "lugar_despues": 4,
    "lat_despues": 4,
    "region_despues": 4,
-   "de_None": 9,
+   "de_None": 10,
    "de_estado": 3,
    "de_texto": 1
   },
   "VE": {
-   "total": 185,
+   "total": 237,
    "lugar_antes": 0,
-   "lat_antes": 33,
-   "lugar_despues": 52,
-   "lat_despues": 62,
-   "region_despues": 74,
-   "de_None": 133,
+   "lat_antes": 34,
+   "lugar_despues": 54,
+   "lat_despues": 65,
+   "region_despues": 75,
+   "de_None": 183,
    "de_estado": 8,
-   "de_texto": 27,
+   "de_texto": 29,
    "de_coords": 17
   },
   "VG": {
@@ -2691,13 +2888,13 @@
    "de_texto": 2
   },
   "VN": {
-   "total": 43,
+   "total": 44,
    "lugar_antes": 0,
    "lat_antes": 2,
    "lugar_despues": 7,
    "lat_despues": 7,
    "region_despues": 11,
-   "de_None": 36,
+   "de_None": 37,
    "de_texto": 5,
    "de_coords": 2
   },
@@ -2736,11 +2933,11 @@
    "total": 16,
    "lugar_antes": 0,
    "lat_antes": 4,
-   "lugar_despues": 3,
-   "lat_despues": 5,
-   "region_despues": 4,
-   "de_None": 13,
-   "de_texto": 1,
+   "lugar_despues": 5,
+   "lat_despues": 7,
+   "region_despues": 7,
+   "de_None": 11,
+   "de_texto": 3,
    "de_coords": 2
   },
   "YT": {
@@ -2753,43 +2950,43 @@
    "de_coords": 2
   },
   "ZA": {
-   "total": 212,
+   "total": 224,
    "lugar_antes": 1,
-   "lat_antes": 56,
-   "lugar_despues": 50,
-   "lat_despues": 81,
-   "region_despues": 90,
+   "lat_antes": 53,
+   "lugar_despues": 48,
+   "lat_despues": 76,
+   "region_despues": 84,
    "de_estado": 12,
-   "de_None": 162,
-   "de_texto": 18,
+   "de_None": 176,
+   "de_texto": 16,
    "de_coords": 19,
    "de_dato": 1
   },
   "ZM": {
-   "total": 84,
+   "total": 85,
    "lugar_antes": 0,
    "lat_antes": 0,
-   "lugar_despues": 78,
-   "lat_despues": 78,
+   "lugar_despues": 37,
+   "lat_despues": 37,
    "region_despues": 78,
-   "de_estado": 78,
-   "de_None": 6
+   "de_estado": 37,
+   "de_None": 48
   },
   "ZW": {
    "total": 25,
    "lugar_antes": 0,
    "lat_antes": 3,
-   "lugar_despues": 8,
-   "lat_despues": 9,
+   "lugar_despues": 7,
+   "lat_despues": 8,
    "region_despues": 23,
-   "de_None": 17,
-   "de_estado": 6,
+   "de_None": 18,
+   "de_estado": 5,
    "de_texto": 1,
    "de_coords": 1
   }
  },
- "ids_nuevos": 69457,
- "ids_conservados": 0,
+ "ids_nuevos": 2642,
+ "ids_conservados": 68981,
  "ids_colision": 0,
- "bytes_emisoras_json_gz": 8485644
+ "bytes_emisoras_json_gz": 8584475
 }

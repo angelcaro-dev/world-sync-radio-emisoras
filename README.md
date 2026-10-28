@@ -22,7 +22,8 @@ New / Nuevos:
 - Station lists and addresses found by World Sync Radio in Europe (Oct 2026): public web pages and streams of each station, Icecast status pages of known servers, Wikipedia (CC BY-SA 4.0, names and links only), Wikidata (CC0), OpenStreetMap (ODbL).
 
 ## Attributions (CC BY and open licences) / Atribuciones
-- **Places of the world**: GeoNames (<https://www.geonames.org>, populated places, first-level administrative divisions and alternate names `alternateNamesV2`), licence CC BY 4.0. Used to put a place, coordinates and region on the stations outside Spain and to find places by their name in any of the app's 40 languages and the local language (`lugares_alt.tsv.gz`).
+- **Wikipedia popularity**: Wikidata (CC0), number of Wikipedia articles of each radio station (`wikidata_radios.json.gz`), used only to rank results.
+- **Places of the world**: GeoNames (<https://www.geonames.org>, populated places, first- and second-level administrative divisions (`zonas.tsv.gz`: centre and radius of each province or district) and alternate names `alternateNamesV2`), licence CC BY 4.0. Used to put a place, coordinates and region on the stations outside Spain and to find places by their name in any of the app's 40 languages and the local language (`lugares_alt.tsv.gz`).
 Some stations were located with the help of these open datasets; each such station lists it in `fuentes` (`cc-by:...`):
 - **Portugal**: "Rádios em Portugal: websites e histórico de versões no Arquivo.pt", [dados.gov.pt](https://dados.gov.pt/) (Arquivo.pt), licence CC BY.
 - **Finland**: Traficom, Radioasematiedot, [opendata.traficom.fi](https://opendata.traficom.fi/api/v1/Radioasematiedot), CC BY 4.0.
